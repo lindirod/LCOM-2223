@@ -1,0 +1,149 @@
+\hypertarget{game_8h}{}\doxysection{game.\+h File Reference}
+\label{game_8h}\index{game.h@{game.h}}
+{\ttfamily \#include \char`\"{}game\+\_\+state.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}board.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}piece\+\_\+move.\+h\char`\"{}}\newline
+Include dependency graph for game.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{game_8h_ae5c5488476ad939ec12809dfd4941fa9}{play\+\_\+game}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Plays the game with the given piece. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8h_a07262bb3793448f1bec8e073827a09fa}{movement\+\_\+input}} (uint8\+\_\+t $\ast$\mbox{\hyperlink{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}{scancode}}, \mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Handles the movement input for the current piece. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{game_8h_ad4d144d757a57a1c36395bf30787dc4b}{check\+\_\+full\+\_\+line}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Checks if the board has last line full. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8h_a78417e1da9634089b6a7605fcd2dc743}{move\+\_\+down\+\_\+board}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Moves the board down one row. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8h_aaa59abd695d973d7429112e553ad8fa3}{load\+\_\+score\+\_\+xpm}} ()
+\begin{DoxyCompactList}\small\item\em Loads the XPM image. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8h_a200dcd33e635176ca83ddde81b7b7610}{draw\+\_\+score}} ()
+\begin{DoxyCompactList}\small\item\em Draws the score XPM image. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{game_8h_acfa86198675a4906cae7d865aa12cd60}{check\+\_\+gameover}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Checks for game over in game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{game_8h_ad4d144d757a57a1c36395bf30787dc4b}\label{game_8h_ad4d144d757a57a1c36395bf30787dc4b}} 
+\index{game.h@{game.h}!check\_full\_line@{check\_full\_line}}
+\index{check\_full\_line@{check\_full\_line}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{check\_full\_line()}{check\_full\_line()}}
+{\footnotesize\ttfamily bool check\+\_\+full\+\_\+line (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Checks if the board has last line full. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & The board to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if last line full, false otherwise. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{game_8h_acfa86198675a4906cae7d865aa12cd60}\label{game_8h_acfa86198675a4906cae7d865aa12cd60}} 
+\index{game.h@{game.h}!check\_gameover@{check\_gameover}}
+\index{check\_gameover@{check\_gameover}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{check\_gameover()}{check\_gameover()}}
+{\footnotesize\ttfamily bool check\+\_\+gameover (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Checks for game over in game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & The piece which is being played \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{game_8h_a200dcd33e635176ca83ddde81b7b7610}\label{game_8h_a200dcd33e635176ca83ddde81b7b7610}} 
+\index{game.h@{game.h}!draw\_score@{draw\_score}}
+\index{draw\_score@{draw\_score}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{draw\_score()}{draw\_score()}}
+{\footnotesize\ttfamily void draw\+\_\+score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the score XPM image. 
+
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{game_8h_aaa59abd695d973d7429112e553ad8fa3}\label{game_8h_aaa59abd695d973d7429112e553ad8fa3}} 
+\index{game.h@{game.h}!load\_score\_xpm@{load\_score\_xpm}}
+\index{load\_score\_xpm@{load\_score\_xpm}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{load\_score\_xpm()}{load\_score\_xpm()}}
+{\footnotesize\ttfamily void load\+\_\+score\+\_\+xpm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads the XPM image. 
+
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{game_8h_a78417e1da9634089b6a7605fcd2dc743}\label{game_8h_a78417e1da9634089b6a7605fcd2dc743}} 
+\index{game.h@{game.h}!move\_down\_board@{move\_down\_board}}
+\index{move\_down\_board@{move\_down\_board}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{move\_down\_board()}{move\_down\_board()}}
+{\footnotesize\ttfamily void move\+\_\+down\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Moves the board down one row. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & The board to move. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{game_8h_a07262bb3793448f1bec8e073827a09fa}\label{game_8h_a07262bb3793448f1bec8e073827a09fa}} 
+\index{game.h@{game.h}!movement\_input@{movement\_input}}
+\index{movement\_input@{movement\_input}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{movement\_input()}{movement\_input()}}
+{\footnotesize\ttfamily void movement\+\_\+input (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{scancode,  }\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Handles the movement input for the current piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scancode} & The scancode to handle. \\
+\hline
+{\em piece} & The current piece. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 8
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{game_8h_ae5c5488476ad939ec12809dfd4941fa9}\label{game_8h_ae5c5488476ad939ec12809dfd4941fa9}} 
+\index{game.h@{game.h}!play\_game@{play\_game}}
+\index{play\_game@{play\_game}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{play\_game()}{play\_game()}}
+{\footnotesize\ttfamily void play\+\_\+game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Plays the game with the given piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & The piece to play with. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 10
+Here is the caller graph for this function\+:
+% FIG 11

@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\pinta\Downloads\MINIX-LCOM\MINIX-LCOM\shared\shared\g4 Select CMakeLists.txt

@@ -1,0 +1,314 @@
+\hypertarget{game_8c}{}\doxysection{game.\+c File Reference}
+\label{game_8c}\index{game.c@{game.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}game.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}keys.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vbe\+\_\+graphics.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/game/score\+\_\+t.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/game/tetris\+\_\+t.\+xpm\char`\"{}}\newline
+Include dependency graph for game.\+c\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{game_8c_a690efe7a045abbfc9b27e560a2ec9513}{AMAKE}}~0x1E
+\item 
+\#define \mbox{\hyperlink{game_8c_a44e36af0ac2ecc5ef350ba0be8942ec2}{DMAKE}}~0x20
+\item 
+\#define \mbox{\hyperlink{game_8c_a1e09a1aa8665e3937510ff8c14fc7fa7}{ABREAK}}~0x9E
+\item 
+\#define \mbox{\hyperlink{game_8c_ab38702ad72d18f40a1ee070106d30718}{DBREAK}}~0x\+A0
+\item 
+\#define \mbox{\hyperlink{game_8c_ae2df54dba64c2a247f73025f78cf5111}{WBREAK}}~0x91
+\item 
+\#define \mbox{\hyperlink{game_8c_a5b832c74ca8bf6ffabf7d4190eded9f9}{SBREAK}}~0x9F
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{game_8c_aaa59abd695d973d7429112e553ad8fa3}{load\+\_\+score\+\_\+xpm}} ()
+\begin{DoxyCompactList}\small\item\em Loads the XPM image. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8c_a200dcd33e635176ca83ddde81b7b7610}{draw\+\_\+score}} ()
+\begin{DoxyCompactList}\small\item\em Draws the score XPM image. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8c_ae5c5488476ad939ec12809dfd4941fa9}{play\+\_\+game}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Plays the game with the given piece. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{game_8c_a07262bb3793448f1bec8e073827a09fa}{movement\+\_\+input}} (uint8\+\_\+t $\ast$\mbox{\hyperlink{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}{scancode}}, \mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Handles the movement input for the current piece. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{game_8c_a502b60bfa0fad0c7d7a406aecef66497}{check\+\_\+full\+\_\+lines}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\item 
+void \mbox{\hyperlink{game_8c_a78417e1da9634089b6a7605fcd2dc743}{move\+\_\+down\+\_\+board}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Moves the board down one row. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{game_8c_acfa86198675a4906cae7d865aa12cd60}{check\+\_\+gameover}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Checks for game over in game. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{game_8c_ad4d144d757a57a1c36395bf30787dc4b}{check\+\_\+full\+\_\+line}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Checks if the board has last line full. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game_8c_abdad0d40a5b756cab7880532e7b6741c}{tetris\+\_\+t}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{game_8c_a40cb52599abe0961a17d4761d8eaef02}{piece\+\_\+pos\+\_\+x}} = 50
+\item 
+uint16\+\_\+t \mbox{\hyperlink{game_8c_abdfb571afadd4cd571963dfcd830e9b6}{piece\+\_\+pos\+\_\+y}} = 50
+\item 
+uint8\+\_\+t \mbox{\hyperlink{game_8c_aa624e1d5510d285dd84a9dcbd4bef023}{x\+\_\+move\+\_\+qty}} = 10
+\item 
+uint8\+\_\+t \mbox{\hyperlink{game_8c_a4ba4d21d4df7dbfbf88e91476f2a3d95}{y\+\_\+move\+\_\+qty}} = 10
+\item 
+int \mbox{\hyperlink{game_8c_aa60f0d9d65b4f93049ef0a4ef97745f5}{last\+\_\+move}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game_8c_a6e09938899ca54b1d3d739e539161f27}{score\+\_\+xpm}}
+\item 
+int \mbox{\hyperlink{game_8c_a58f298671e9acf88cc82dff98b98cdc5}{score\+\_\+initial\+\_\+x}} = 500
+\item 
+int \mbox{\hyperlink{game_8c_a9de2f009068a06065a3f6b9f98535c6a}{score\+\_\+initial\+\_\+y}} = 150
+\item 
+uint8\+\_\+t \mbox{\hyperlink{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}{scancode}}
+\item 
+\mbox{\hyperlink{game__state_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{game_8c_ab8c8a2816ae974e5a2df22ec1e87fa51}{game\+\_\+state}}
+\item 
+int \mbox{\hyperlink{game_8c_aef160b7437d94056f1dc59646cd5b87d}{score}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{game_8c_a1e09a1aa8665e3937510ff8c14fc7fa7}\label{game_8c_a1e09a1aa8665e3937510ff8c14fc7fa7}} 
+\index{game.c@{game.c}!ABREAK@{ABREAK}}
+\index{ABREAK@{ABREAK}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{ABREAK}{ABREAK}}
+{\footnotesize\ttfamily \#define ABREAK~0x9E}
+
+\mbox{\Hypertarget{game_8c_a690efe7a045abbfc9b27e560a2ec9513}\label{game_8c_a690efe7a045abbfc9b27e560a2ec9513}} 
+\index{game.c@{game.c}!AMAKE@{AMAKE}}
+\index{AMAKE@{AMAKE}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{AMAKE}{AMAKE}}
+{\footnotesize\ttfamily \#define AMAKE~0x1E}
+
+\mbox{\Hypertarget{game_8c_ab38702ad72d18f40a1ee070106d30718}\label{game_8c_ab38702ad72d18f40a1ee070106d30718}} 
+\index{game.c@{game.c}!DBREAK@{DBREAK}}
+\index{DBREAK@{DBREAK}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{DBREAK}{DBREAK}}
+{\footnotesize\ttfamily \#define DBREAK~0x\+A0}
+
+\mbox{\Hypertarget{game_8c_a44e36af0ac2ecc5ef350ba0be8942ec2}\label{game_8c_a44e36af0ac2ecc5ef350ba0be8942ec2}} 
+\index{game.c@{game.c}!DMAKE@{DMAKE}}
+\index{DMAKE@{DMAKE}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{DMAKE}{DMAKE}}
+{\footnotesize\ttfamily \#define DMAKE~0x20}
+
+\mbox{\Hypertarget{game_8c_a5b832c74ca8bf6ffabf7d4190eded9f9}\label{game_8c_a5b832c74ca8bf6ffabf7d4190eded9f9}} 
+\index{game.c@{game.c}!SBREAK@{SBREAK}}
+\index{SBREAK@{SBREAK}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{SBREAK}{SBREAK}}
+{\footnotesize\ttfamily \#define SBREAK~0x9F}
+
+\mbox{\Hypertarget{game_8c_ae2df54dba64c2a247f73025f78cf5111}\label{game_8c_ae2df54dba64c2a247f73025f78cf5111}} 
+\index{game.c@{game.c}!WBREAK@{WBREAK}}
+\index{WBREAK@{WBREAK}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{WBREAK}{WBREAK}}
+{\footnotesize\ttfamily \#define WBREAK~0x91}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{game_8c_ad4d144d757a57a1c36395bf30787dc4b}\label{game_8c_ad4d144d757a57a1c36395bf30787dc4b}} 
+\index{game.c@{game.c}!check\_full\_line@{check\_full\_line}}
+\index{check\_full\_line@{check\_full\_line}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{check\_full\_line()}{check\_full\_line()}}
+{\footnotesize\ttfamily bool check\+\_\+full\+\_\+line (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Checks if the board has last line full. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & The board to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if last line full, false otherwise. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{game_8c_a502b60bfa0fad0c7d7a406aecef66497}\label{game_8c_a502b60bfa0fad0c7d7a406aecef66497}} 
+\index{game.c@{game.c}!check\_full\_lines@{check\_full\_lines}}
+\index{check\_full\_lines@{check\_full\_lines}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{check\_full\_lines()}{check\_full\_lines()}}
+{\footnotesize\ttfamily bool check\+\_\+full\+\_\+lines (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{game_8c_acfa86198675a4906cae7d865aa12cd60}\label{game_8c_acfa86198675a4906cae7d865aa12cd60}} 
+\index{game.c@{game.c}!check\_gameover@{check\_gameover}}
+\index{check\_gameover@{check\_gameover}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{check\_gameover()}{check\_gameover()}}
+{\footnotesize\ttfamily bool check\+\_\+gameover (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Checks for game over in game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & The piece which is being played \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{game_8c_a200dcd33e635176ca83ddde81b7b7610}\label{game_8c_a200dcd33e635176ca83ddde81b7b7610}} 
+\index{game.c@{game.c}!draw\_score@{draw\_score}}
+\index{draw\_score@{draw\_score}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{draw\_score()}{draw\_score()}}
+{\footnotesize\ttfamily void draw\+\_\+score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the score XPM image. 
+
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{game_8c_aaa59abd695d973d7429112e553ad8fa3}\label{game_8c_aaa59abd695d973d7429112e553ad8fa3}} 
+\index{game.c@{game.c}!load\_score\_xpm@{load\_score\_xpm}}
+\index{load\_score\_xpm@{load\_score\_xpm}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{load\_score\_xpm()}{load\_score\_xpm()}}
+{\footnotesize\ttfamily void load\+\_\+score\+\_\+xpm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads the XPM image. 
+
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{game_8c_a78417e1da9634089b6a7605fcd2dc743}\label{game_8c_a78417e1da9634089b6a7605fcd2dc743}} 
+\index{game.c@{game.c}!move\_down\_board@{move\_down\_board}}
+\index{move\_down\_board@{move\_down\_board}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{move\_down\_board()}{move\_down\_board()}}
+{\footnotesize\ttfamily void move\+\_\+down\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Moves the board down one row. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & The board to move. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{game_8c_a07262bb3793448f1bec8e073827a09fa}\label{game_8c_a07262bb3793448f1bec8e073827a09fa}} 
+\index{game.c@{game.c}!movement\_input@{movement\_input}}
+\index{movement\_input@{movement\_input}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{movement\_input()}{movement\_input()}}
+{\footnotesize\ttfamily void movement\+\_\+input (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{scancode,  }\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Handles the movement input for the current piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scancode} & The scancode to handle. \\
+\hline
+{\em piece} & The current piece. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{game_8c_ae5c5488476ad939ec12809dfd4941fa9}\label{game_8c_ae5c5488476ad939ec12809dfd4941fa9}} 
+\index{game.c@{game.c}!play\_game@{play\_game}}
+\index{play\_game@{play\_game}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{play\_game()}{play\_game()}}
+{\footnotesize\ttfamily void play\+\_\+game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Plays the game with the given piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & The piece to play with. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 9
+Here is the caller graph for this function\+:
+% FIG 10
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{game_8c_ab8c8a2816ae974e5a2df22ec1e87fa51}\label{game_8c_ab8c8a2816ae974e5a2df22ec1e87fa51}} 
+\index{game.c@{game.c}!game\_state@{game\_state}}
+\index{game\_state@{game\_state}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{game\_state}{game\_state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{game__state_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} game\+\_\+state\hspace{0.3cm}{\ttfamily [extern]}}
+
+\mbox{\Hypertarget{game_8c_aa60f0d9d65b4f93049ef0a4ef97745f5}\label{game_8c_aa60f0d9d65b4f93049ef0a4ef97745f5}} 
+\index{game.c@{game.c}!last\_move@{last\_move}}
+\index{last\_move@{last\_move}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{last\_move}{last\_move}}
+{\footnotesize\ttfamily int last\+\_\+move}
+
+\mbox{\Hypertarget{game_8c_a40cb52599abe0961a17d4761d8eaef02}\label{game_8c_a40cb52599abe0961a17d4761d8eaef02}} 
+\index{game.c@{game.c}!piece\_pos\_x@{piece\_pos\_x}}
+\index{piece\_pos\_x@{piece\_pos\_x}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{piece\_pos\_x}{piece\_pos\_x}}
+{\footnotesize\ttfamily uint16\+\_\+t piece\+\_\+pos\+\_\+x = 50}
+
+\mbox{\Hypertarget{game_8c_abdfb571afadd4cd571963dfcd830e9b6}\label{game_8c_abdfb571afadd4cd571963dfcd830e9b6}} 
+\index{game.c@{game.c}!piece\_pos\_y@{piece\_pos\_y}}
+\index{piece\_pos\_y@{piece\_pos\_y}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{piece\_pos\_y}{piece\_pos\_y}}
+{\footnotesize\ttfamily uint16\+\_\+t piece\+\_\+pos\+\_\+y = 50}
+
+\mbox{\Hypertarget{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}\label{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}} 
+\index{game.c@{game.c}!scancode@{scancode}}
+\index{scancode@{scancode}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{scancode}{scancode}}
+{\footnotesize\ttfamily uint8\+\_\+t scancode\hspace{0.3cm}{\ttfamily [extern]}}
+
+\mbox{\Hypertarget{game_8c_aef160b7437d94056f1dc59646cd5b87d}\label{game_8c_aef160b7437d94056f1dc59646cd5b87d}} 
+\index{game.c@{game.c}!score@{score}}
+\index{score@{score}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily int score = 0}
+
+\mbox{\Hypertarget{game_8c_a58f298671e9acf88cc82dff98b98cdc5}\label{game_8c_a58f298671e9acf88cc82dff98b98cdc5}} 
+\index{game.c@{game.c}!score\_initial\_x@{score\_initial\_x}}
+\index{score\_initial\_x@{score\_initial\_x}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{score\_initial\_x}{score\_initial\_x}}
+{\footnotesize\ttfamily int score\+\_\+initial\+\_\+x = 500}
+
+\mbox{\Hypertarget{game_8c_a9de2f009068a06065a3f6b9f98535c6a}\label{game_8c_a9de2f009068a06065a3f6b9f98535c6a}} 
+\index{game.c@{game.c}!score\_initial\_y@{score\_initial\_y}}
+\index{score\_initial\_y@{score\_initial\_y}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{score\_initial\_y}{score\_initial\_y}}
+{\footnotesize\ttfamily int score\+\_\+initial\+\_\+y = 150}
+
+\mbox{\Hypertarget{game_8c_a6e09938899ca54b1d3d739e539161f27}\label{game_8c_a6e09938899ca54b1d3d739e539161f27}} 
+\index{game.c@{game.c}!score\_xpm@{score\_xpm}}
+\index{score\_xpm@{score\_xpm}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{score\_xpm}{score\_xpm}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t score\+\_\+xpm}
+
+\mbox{\Hypertarget{game_8c_abdad0d40a5b756cab7880532e7b6741c}\label{game_8c_abdad0d40a5b756cab7880532e7b6741c}} 
+\index{game.c@{game.c}!tetris\_t@{tetris\_t}}
+\index{tetris\_t@{tetris\_t}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{tetris\_t}{tetris\_t}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t tetris\+\_\+t}
+
+\mbox{\Hypertarget{game_8c_aa624e1d5510d285dd84a9dcbd4bef023}\label{game_8c_aa624e1d5510d285dd84a9dcbd4bef023}} 
+\index{game.c@{game.c}!x\_move\_qty@{x\_move\_qty}}
+\index{x\_move\_qty@{x\_move\_qty}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{x\_move\_qty}{x\_move\_qty}}
+{\footnotesize\ttfamily uint8\+\_\+t x\+\_\+move\+\_\+qty = 10}
+
+\mbox{\Hypertarget{game_8c_a4ba4d21d4df7dbfbf88e91476f2a3d95}\label{game_8c_a4ba4d21d4df7dbfbf88e91476f2a3d95}} 
+\index{game.c@{game.c}!y\_move\_qty@{y\_move\_qty}}
+\index{y\_move\_qty@{y\_move\_qty}!game.c@{game.c}}
+\doxysubsubsection{\texorpdfstring{y\_move\_qty}{y\_move\_qty}}
+{\footnotesize\ttfamily uint8\+\_\+t y\+\_\+move\+\_\+qty = 10}
+

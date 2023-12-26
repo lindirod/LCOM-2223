@@ -1,0 +1,130 @@
+\hypertarget{piece__move_8c}{}\doxysection{piece\+\_\+move.\+c File Reference}
+\label{piece__move_8c}\index{piece\_move.c@{piece\_move.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$lcom/proj.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}board.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}piece\+\_\+move.\+h\char`\"{}}\newline
+Include dependency graph for piece\+\_\+move.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{piece__move_8c_a282c63a6f955533c982a3868bf843dd2}{update\+\_\+movement}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece, enum \mbox{\hyperlink{piece__move_8h_ae6d75c2cba750a5884b4d8e4f8e87fc4}{movement\+\_\+type}} move)
+\begin{DoxyCompactList}\small\item\em Updates the movement of the Tetris piece. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{piece__move_8c_ad27dc94404c2774e1054d150beb994d8}{rotate\+\_\+piece}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Rotates the Tetris piece. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{piece__move_8c_a13cb62900f79e85d9007bb1234004072}{move\+\_\+down}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Moves the Tetris piece downwards. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{piece__move_8c_a97c4f91bfa62579d483145e89eb54778}{move\+\_\+right}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Moves the Tetris piece to the right. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{piece__move_8c_ac078349cf0c19f3ca2eb7276415d1352}{move\+\_\+left}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Moves the Tetris piece to the left. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{piece__move_8c_a13cb62900f79e85d9007bb1234004072}\label{piece__move_8c_a13cb62900f79e85d9007bb1234004072}} 
+\index{piece\_move.c@{piece\_move.c}!move\_down@{move\_down}}
+\index{move\_down@{move\_down}!piece\_move.c@{piece\_move.c}}
+\doxysubsubsection{\texorpdfstring{move\_down()}{move\_down()}}
+{\footnotesize\ttfamily bool move\+\_\+down (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Moves the Tetris piece downwards. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & Pointer to the Tetris piece to be moved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was moved successfully, false otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{piece__move_8c_ac078349cf0c19f3ca2eb7276415d1352}\label{piece__move_8c_ac078349cf0c19f3ca2eb7276415d1352}} 
+\index{piece\_move.c@{piece\_move.c}!move\_left@{move\_left}}
+\index{move\_left@{move\_left}!piece\_move.c@{piece\_move.c}}
+\doxysubsubsection{\texorpdfstring{move\_left()}{move\_left()}}
+{\footnotesize\ttfamily bool move\+\_\+left (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Moves the Tetris piece to the left. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & Pointer to the Tetris piece to be moved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was moved successfully, false otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{piece__move_8c_a97c4f91bfa62579d483145e89eb54778}\label{piece__move_8c_a97c4f91bfa62579d483145e89eb54778}} 
+\index{piece\_move.c@{piece\_move.c}!move\_right@{move\_right}}
+\index{move\_right@{move\_right}!piece\_move.c@{piece\_move.c}}
+\doxysubsubsection{\texorpdfstring{move\_right()}{move\_right()}}
+{\footnotesize\ttfamily bool move\+\_\+right (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Moves the Tetris piece to the right. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & Pointer to the Tetris piece to be moved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was moved successfully, false otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{piece__move_8c_ad27dc94404c2774e1054d150beb994d8}\label{piece__move_8c_ad27dc94404c2774e1054d150beb994d8}} 
+\index{piece\_move.c@{piece\_move.c}!rotate\_piece@{rotate\_piece}}
+\index{rotate\_piece@{rotate\_piece}!piece\_move.c@{piece\_move.c}}
+\doxysubsubsection{\texorpdfstring{rotate\_piece()}{rotate\_piece()}}
+{\footnotesize\ttfamily bool rotate\+\_\+piece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Rotates the Tetris piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & Pointer to the Tetris piece to be rotated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was rotated successfully, false otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{piece__move_8c_a282c63a6f955533c982a3868bf843dd2}\label{piece__move_8c_a282c63a6f955533c982a3868bf843dd2}} 
+\index{piece\_move.c@{piece\_move.c}!update\_movement@{update\_movement}}
+\index{update\_movement@{update\_movement}!piece\_move.c@{piece\_move.c}}
+\doxysubsubsection{\texorpdfstring{update\_movement()}{update\_movement()}}
+{\footnotesize\ttfamily bool update\+\_\+movement (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece,  }\item[{enum \mbox{\hyperlink{piece__move_8h_ae6d75c2cba750a5884b4d8e4f8e87fc4}{movement\+\_\+type}}}]{move }\end{DoxyParamCaption})}
+
+
+
+Updates the movement of the Tetris piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & Pointer to the Tetris piece to be moved \\
+\hline
+{\em move} & Type of movement to be performed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was moved successfully, false otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+Here is the caller graph for this function\+:
+% FIG 6

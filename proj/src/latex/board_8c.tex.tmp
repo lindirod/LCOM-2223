@@ -1,0 +1,139 @@
+\hypertarget{board_8c}{}\doxysection{board.\+c File Reference}
+\label{board_8c}\index{board.c@{board.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$lcom/proj.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}board.\+h\char`\"{}}\newline
+Include dependency graph for board.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void() \mbox{\hyperlink{board_8c_a9156ff91f463b226d488145b185ae0c5}{draw\+\_\+board}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$bd)
+\begin{DoxyCompactList}\small\item\em Function that draws the game board. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_board}{Board}} $\ast$ \mbox{\hyperlink{board_8c_af103816f6a5b108be6139a1b73dc168b}{new\+\_\+board}} ()
+\begin{DoxyCompactList}\small\item\em Function that creates a new game board. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_piece}{Piece}} $\ast$ \mbox{\hyperlink{board_8c_a7f5822c6511e375f9b796d7ef0bf3bff}{new\+\_\+piece}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Function that creates a new game piece. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{board_8c_adaa0b31ef3c2e39f979db5f7feb9bd4f}{delete\+\_\+piece}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Function that frees the memory used by a game piece. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{board_8c_a5ab138241d19c1826240ea803c970d9d}{delete\+\_\+board}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Function that frees the memory used by a game board. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{board_8c_a066bb98c63ac4cfd7df177a77c502f47}{initial\+\_\+x}} = 199
+\item 
+uint16\+\_\+t \mbox{\hyperlink{board_8c_a4959d50bb0c19123c27b1963199d1646}{initial\+\_\+y}} = 149
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{board_8c_a5ab138241d19c1826240ea803c970d9d}\label{board_8c_a5ab138241d19c1826240ea803c970d9d}} 
+\index{board.c@{board.c}!delete\_board@{delete\_board}}
+\index{delete\_board@{delete\_board}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{delete\_board()}{delete\_board()}}
+{\footnotesize\ttfamily void delete\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Function that frees the memory used by a game board. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & A pointer to the game board to be deleted. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{board_8c_adaa0b31ef3c2e39f979db5f7feb9bd4f}\label{board_8c_adaa0b31ef3c2e39f979db5f7feb9bd4f}} 
+\index{board.c@{board.c}!delete\_piece@{delete\_piece}}
+\index{delete\_piece@{delete\_piece}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{delete\_piece()}{delete\_piece()}}
+{\footnotesize\ttfamily void delete\+\_\+piece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Function that frees the memory used by a game piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & A pointer to the game piece to be deleted. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{board_8c_a9156ff91f463b226d488145b185ae0c5}\label{board_8c_a9156ff91f463b226d488145b185ae0c5}} 
+\index{board.c@{board.c}!draw\_board@{draw\_board}}
+\index{draw\_board@{draw\_board}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{draw\_board()}{draw\_board()}}
+{\footnotesize\ttfamily void() draw\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Function that draws the game board. 
+
+The function draws the borders of board and each of its cells with its respective color.
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & The game board to be drawn. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 2
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{board_8c_af103816f6a5b108be6139a1b73dc168b}\label{board_8c_af103816f6a5b108be6139a1b73dc168b}} 
+\index{board.c@{board.c}!new\_board@{new\_board}}
+\index{new\_board@{new\_board}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{new\_board()}{new\_board()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_board}{Board}} $\ast$ new\+\_\+board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function that creates a new game board. 
+
+The function allocates memory for the new board and intializes each of its cells.
+
+\begin{DoxyReturn}{Returns}
+Board$\ast$ -\/ a pointer to the new board. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{board_8c_a7f5822c6511e375f9b796d7ef0bf3bff}\label{board_8c_a7f5822c6511e375f9b796d7ef0bf3bff}} 
+\index{board.c@{board.c}!new\_piece@{new\_piece}}
+\index{new\_piece@{new\_piece}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{new\_piece()}{new\_piece()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_piece}{Piece}} $\ast$ new\+\_\+piece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Function that creates a new game piece. 
+
+The function allocates memory for the new piece, selects a shape and a color for it, initializes its poisition and rotation value and updates the board cells with the piece\textquotesingle{}s color
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & A pointer to the board the new piece belongs to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Piece$\ast$ -\/ a pointer to the new game piece. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 5
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{board_8c_a066bb98c63ac4cfd7df177a77c502f47}\label{board_8c_a066bb98c63ac4cfd7df177a77c502f47}} 
+\index{board.c@{board.c}!initial\_x@{initial\_x}}
+\index{initial\_x@{initial\_x}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{initial\_x}{initial\_x}}
+{\footnotesize\ttfamily uint16\+\_\+t initial\+\_\+x = 199}
+
+\mbox{\Hypertarget{board_8c_a4959d50bb0c19123c27b1963199d1646}\label{board_8c_a4959d50bb0c19123c27b1963199d1646}} 
+\index{board.c@{board.c}!initial\_y@{initial\_y}}
+\index{initial\_y@{initial\_y}!board.c@{board.c}}
+\doxysubsubsection{\texorpdfstring{initial\_y}{initial\_y}}
+{\footnotesize\ttfamily uint16\+\_\+t initial\+\_\+y = 149}
+

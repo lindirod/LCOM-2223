@@ -1,0 +1,509 @@
+\hypertarget{menu_8c}{}\doxysection{menu.\+c File Reference}
+\label{menu_8c}\index{menu.c@{menu.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$lcom/proj.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}menu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}keys.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vbe\+\_\+graphics.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game\+\_\+state.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/tetris\+\_\+logo.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/tetris\+\_\+mouse\+\_\+pointer.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+play.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+leaderboard.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+instructions.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+quit.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+play\+\_\+selected.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+leaderboard\+\_\+selected.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+instructions\+\_\+selected.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/menu/txt\+\_\+quit\+\_\+selected.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/instructions/instructions.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}mouse.\+h\char`\"{}}\newline
+Include dependency graph for menu.\+c\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{menu_8c_a9f0e02397db79f8c0089595a7bcd4ac8}{TETRIS\+\_\+\+LOGO\+\_\+\+XPM\+\_\+\+X\+\_\+\+START}}~250
+\item 
+\#define \mbox{\hyperlink{menu_8c_a96935180d6b686ef269ce343fc5fc2ad}{TETRIS\+\_\+\+LOGO\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START}}~25
+\item 
+\#define \mbox{\hyperlink{menu_8c_ac24a1ab744429c7688321878dda44e00}{PLAY\+\_\+\+XPM\+\_\+\+X\+\_\+\+START}}~250
+\item 
+\#define \mbox{\hyperlink{menu_8c_a73db212c1dc7bddfc017acee6ffee6db}{PLAY\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START}}~250
+\item 
+\#define \mbox{\hyperlink{menu_8c_aa928dc983c58a0632b63b195a8b4d18a}{PLAY\+\_\+\+XPM\+\_\+\+WIDTH}}~300
+\item 
+\#define \mbox{\hyperlink{menu_8c_aeace79805bb287f3fb622e74f7ef7838}{PLAY\+\_\+\+XPM\+\_\+\+HEIGHT}}~50
+\item 
+\#define \mbox{\hyperlink{menu_8c_a08a71ac0d23b1f62f2527c326fe9376a}{LEADERBOARD\+\_\+\+XPM\+\_\+\+X\+\_\+\+START}}~250
+\item 
+\#define \mbox{\hyperlink{menu_8c_af337a73c84f21f35180aca706a6c3283}{LEADERBOARD\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START}}~325
+\item 
+\#define \mbox{\hyperlink{menu_8c_a4cc949d4baaee9c5383086a7721e7cb1}{LEADERBOARD\+\_\+\+XPM\+\_\+\+WIDTH}}~300
+\item 
+\#define \mbox{\hyperlink{menu_8c_aef64e81ffae5e94a7ffa5e3689d246bb}{LEADERBOARD\+\_\+\+XPM\+\_\+\+HEIGHT}}~50
+\item 
+\#define \mbox{\hyperlink{menu_8c_a27bd1c96ecd914f4740a79322905b922}{INSTRUCTIONS\+\_\+\+XPM\+\_\+\+X\+\_\+\+START}}~250
+\item 
+\#define \mbox{\hyperlink{menu_8c_ae88b7c14c139c38bcc8aa6d9af17b6cf}{INSTRUCTIONS\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START}}~400
+\item 
+\#define \mbox{\hyperlink{menu_8c_a04abd791ec608de909fd3fb22be60d79}{INSTRUCTIONS\+\_\+\+XPM\+\_\+\+WIDTH}}~300
+\item 
+\#define \mbox{\hyperlink{menu_8c_ae35eef333a8c2bd246e5053096820f89}{INSTRUCTIONS\+\_\+\+XPM\+\_\+\+HEIGHT}}~50
+\item 
+\#define \mbox{\hyperlink{menu_8c_aaac4bf752bda2d272d398a8041505a1d}{QUIT\+\_\+\+XPM\+\_\+\+X\+\_\+\+START}}~250
+\item 
+\#define \mbox{\hyperlink{menu_8c_a5d76071a1c5ab511288c01fa932348ac}{QUIT\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START}}~475
+\item 
+\#define \mbox{\hyperlink{menu_8c_a2be7dc37a30c0d91e45c0f9d82f75e56}{QUIT\+\_\+\+XPM\+\_\+\+WIDTH}}~300
+\item 
+\#define \mbox{\hyperlink{menu_8c_aea22bb5da60435e525a2f7d7a8bd4fac}{QUIT\+\_\+\+XPM\+\_\+\+HEIGHT}}~50
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void() \mbox{\hyperlink{menu_8c_a87ab8b0a7b21939cbb3d96a3dcec95cc}{instruction\+\_\+file\+\_\+init}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the necessary XPM image files for the menu screen. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{menu_8c_a881dbf35f83408ef6b3f12e7c5c1aaef}{draw\+\_\+instructions}} ()
+\begin{DoxyCompactList}\small\item\em Draws the instructions. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{menu_8c_a565fd8fef5aa1b3874722adf616cdf89}{clear\+\_\+instructions}} ()
+\begin{DoxyCompactList}\small\item\em This function clears the XPM images for the instruction. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{menu_8c_a677acea5d0ed936bbe8169f061a40fec}{menu\+\_\+files\+\_\+init}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the necessary XPM image files for the menu screen. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{menu_8c_a8b436345808e86cfdb278061a65a0fe7}{draw\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Draws the menu screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{menu_8c_ac236c3db0ae243876d31c6d59444e1cd}{clear\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em This function clears the XPM images for the menu screen. \end{DoxyCompactList}\item 
+bool() \mbox{\hyperlink{menu_8c_a5545a30474386b54802eddd5458df26b}{navigate\+\_\+menu}} (uint8\+\_\+t $\ast$\mbox{\hyperlink{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}{scancode}})
+\begin{DoxyCompactList}\small\item\em This function navigates the menu screen based on the user input. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{menu_8c_a9534132d51542fec5082458288d49b23}{update\+\_\+mouse\+\_\+coordinates}} (bool draw)
+\begin{DoxyCompactList}\small\item\em Updates the mouse coordinates on the menu screen. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{menu_8c_ad9df0e59e18acd09170f5b66cabf858a}{menu\+\_\+mouse\+\_\+handler}} (uint8\+\_\+t $\ast$\mbox{\hyperlink{game_8c_aa1de7a5557e9d96b83cf03f73c92163f}{scancode}}, struct mouse\+\_\+ev $\ast$event)
+\begin{DoxyCompactList}\small\item\em Handles mouse events on the menu screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{game__state_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{menu_8c_ab8c8a2816ae974e5a2df22ec1e87fa51}{game\+\_\+state}} = \mbox{\hyperlink{game__state_8h_a7899b65f1ea0f655e4bbf8d2a5714285a4c40e60bc71a32b924ce1f08d57f9721}{MENU}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{menu_8c_aa124f7123c574f636bc50056ba659f8b}{menu\+\_\+counter}}
+\item 
+int16\+\_\+t \mbox{\hyperlink{menu_8c_ac5ae500a2280ad6ed571a99a11954492}{x\+\_\+pos}} = 250
+\item 
+int16\+\_\+t \mbox{\hyperlink{menu_8c_a82663881f9567f6bf0b697b77af08d0d}{y\+\_\+pos}} = 350
+\item 
+struct \mbox{\hyperlink{mouse_8c_ab234504ae156fa5b250e34cbb65a7807}{packet}} \mbox{\hyperlink{menu_8c_a26e83eca70c2b9169fbbb0eac7e32e32}{pp}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_af554e036470b7407efc589fe2e419631}{tetris\+\_\+logo}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_ae2243b8d5a64b01e5914e1273f9811b2}{tetris\+\_\+mouse\+\_\+pointer}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_a4a3e9ecd6b458c37c49d7c02087567b0}{txt\+\_\+play}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_a5597898841ec832a2eee5cd9312789c9}{txt\+\_\+play\+\_\+selected}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_ae9c2bf4f44533c38815d391c372d21b9}{txt\+\_\+leaderboard}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_a3f27a4fdc9b88bb62fbfd6d4ecb0bc45}{txt\+\_\+leaderboard\+\_\+selected}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_af8af1b0adb0a2d01569dec25b2fcfdc8}{txt\+\_\+instructions}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_a29d77abba4fe2c9c473b2fb23d4cc46e}{txt\+\_\+instructions\+\_\+selected}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_ab87a04d05f57fdcfaed89b26fa551a06}{txt\+\_\+quit}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_ae9e44a53f26dfac54c510621304a1561}{txt\+\_\+quit\+\_\+selected}}
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{menu_8c_a88ffa2003e16e66219787f77e028684e}{txt\+\_\+play\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{menu_8c_a2e51ebd332eadabae202ec7dc9fa7335}{txt\+\_\+leaderboard\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{menu_8c_ad82a46f7de01cfe4d9d8c79e20fea07c}{txt\+\_\+instructions\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{menu_8c_a6f6f22489036bcf6c07fc91384885b4c}{txt\+\_\+quit\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{menu_8c_a1c0240459b1214d30e12fe1837c71c2d}{instructions}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{menu_8c_ae35eef333a8c2bd246e5053096820f89}\label{menu_8c_ae35eef333a8c2bd246e5053096820f89}} 
+\index{menu.c@{menu.c}!INSTRUCTIONS\_XPM\_HEIGHT@{INSTRUCTIONS\_XPM\_HEIGHT}}
+\index{INSTRUCTIONS\_XPM\_HEIGHT@{INSTRUCTIONS\_XPM\_HEIGHT}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{INSTRUCTIONS\_XPM\_HEIGHT}{INSTRUCTIONS\_XPM\_HEIGHT}}
+{\footnotesize\ttfamily \#define INSTRUCTIONS\+\_\+\+XPM\+\_\+\+HEIGHT~50}
+
+\mbox{\Hypertarget{menu_8c_a04abd791ec608de909fd3fb22be60d79}\label{menu_8c_a04abd791ec608de909fd3fb22be60d79}} 
+\index{menu.c@{menu.c}!INSTRUCTIONS\_XPM\_WIDTH@{INSTRUCTIONS\_XPM\_WIDTH}}
+\index{INSTRUCTIONS\_XPM\_WIDTH@{INSTRUCTIONS\_XPM\_WIDTH}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{INSTRUCTIONS\_XPM\_WIDTH}{INSTRUCTIONS\_XPM\_WIDTH}}
+{\footnotesize\ttfamily \#define INSTRUCTIONS\+\_\+\+XPM\+\_\+\+WIDTH~300}
+
+\mbox{\Hypertarget{menu_8c_a27bd1c96ecd914f4740a79322905b922}\label{menu_8c_a27bd1c96ecd914f4740a79322905b922}} 
+\index{menu.c@{menu.c}!INSTRUCTIONS\_XPM\_X\_START@{INSTRUCTIONS\_XPM\_X\_START}}
+\index{INSTRUCTIONS\_XPM\_X\_START@{INSTRUCTIONS\_XPM\_X\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{INSTRUCTIONS\_XPM\_X\_START}{INSTRUCTIONS\_XPM\_X\_START}}
+{\footnotesize\ttfamily \#define INSTRUCTIONS\+\_\+\+XPM\+\_\+\+X\+\_\+\+START~250}
+
+\mbox{\Hypertarget{menu_8c_ae88b7c14c139c38bcc8aa6d9af17b6cf}\label{menu_8c_ae88b7c14c139c38bcc8aa6d9af17b6cf}} 
+\index{menu.c@{menu.c}!INSTRUCTIONS\_XPM\_Y\_START@{INSTRUCTIONS\_XPM\_Y\_START}}
+\index{INSTRUCTIONS\_XPM\_Y\_START@{INSTRUCTIONS\_XPM\_Y\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{INSTRUCTIONS\_XPM\_Y\_START}{INSTRUCTIONS\_XPM\_Y\_START}}
+{\footnotesize\ttfamily \#define INSTRUCTIONS\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START~400}
+
+\mbox{\Hypertarget{menu_8c_aef64e81ffae5e94a7ffa5e3689d246bb}\label{menu_8c_aef64e81ffae5e94a7ffa5e3689d246bb}} 
+\index{menu.c@{menu.c}!LEADERBOARD\_XPM\_HEIGHT@{LEADERBOARD\_XPM\_HEIGHT}}
+\index{LEADERBOARD\_XPM\_HEIGHT@{LEADERBOARD\_XPM\_HEIGHT}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{LEADERBOARD\_XPM\_HEIGHT}{LEADERBOARD\_XPM\_HEIGHT}}
+{\footnotesize\ttfamily \#define LEADERBOARD\+\_\+\+XPM\+\_\+\+HEIGHT~50}
+
+\mbox{\Hypertarget{menu_8c_a4cc949d4baaee9c5383086a7721e7cb1}\label{menu_8c_a4cc949d4baaee9c5383086a7721e7cb1}} 
+\index{menu.c@{menu.c}!LEADERBOARD\_XPM\_WIDTH@{LEADERBOARD\_XPM\_WIDTH}}
+\index{LEADERBOARD\_XPM\_WIDTH@{LEADERBOARD\_XPM\_WIDTH}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{LEADERBOARD\_XPM\_WIDTH}{LEADERBOARD\_XPM\_WIDTH}}
+{\footnotesize\ttfamily \#define LEADERBOARD\+\_\+\+XPM\+\_\+\+WIDTH~300}
+
+\mbox{\Hypertarget{menu_8c_a08a71ac0d23b1f62f2527c326fe9376a}\label{menu_8c_a08a71ac0d23b1f62f2527c326fe9376a}} 
+\index{menu.c@{menu.c}!LEADERBOARD\_XPM\_X\_START@{LEADERBOARD\_XPM\_X\_START}}
+\index{LEADERBOARD\_XPM\_X\_START@{LEADERBOARD\_XPM\_X\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{LEADERBOARD\_XPM\_X\_START}{LEADERBOARD\_XPM\_X\_START}}
+{\footnotesize\ttfamily \#define LEADERBOARD\+\_\+\+XPM\+\_\+\+X\+\_\+\+START~250}
+
+\mbox{\Hypertarget{menu_8c_af337a73c84f21f35180aca706a6c3283}\label{menu_8c_af337a73c84f21f35180aca706a6c3283}} 
+\index{menu.c@{menu.c}!LEADERBOARD\_XPM\_Y\_START@{LEADERBOARD\_XPM\_Y\_START}}
+\index{LEADERBOARD\_XPM\_Y\_START@{LEADERBOARD\_XPM\_Y\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{LEADERBOARD\_XPM\_Y\_START}{LEADERBOARD\_XPM\_Y\_START}}
+{\footnotesize\ttfamily \#define LEADERBOARD\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START~325}
+
+\mbox{\Hypertarget{menu_8c_aeace79805bb287f3fb622e74f7ef7838}\label{menu_8c_aeace79805bb287f3fb622e74f7ef7838}} 
+\index{menu.c@{menu.c}!PLAY\_XPM\_HEIGHT@{PLAY\_XPM\_HEIGHT}}
+\index{PLAY\_XPM\_HEIGHT@{PLAY\_XPM\_HEIGHT}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{PLAY\_XPM\_HEIGHT}{PLAY\_XPM\_HEIGHT}}
+{\footnotesize\ttfamily \#define PLAY\+\_\+\+XPM\+\_\+\+HEIGHT~50}
+
+\mbox{\Hypertarget{menu_8c_aa928dc983c58a0632b63b195a8b4d18a}\label{menu_8c_aa928dc983c58a0632b63b195a8b4d18a}} 
+\index{menu.c@{menu.c}!PLAY\_XPM\_WIDTH@{PLAY\_XPM\_WIDTH}}
+\index{PLAY\_XPM\_WIDTH@{PLAY\_XPM\_WIDTH}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{PLAY\_XPM\_WIDTH}{PLAY\_XPM\_WIDTH}}
+{\footnotesize\ttfamily \#define PLAY\+\_\+\+XPM\+\_\+\+WIDTH~300}
+
+\mbox{\Hypertarget{menu_8c_ac24a1ab744429c7688321878dda44e00}\label{menu_8c_ac24a1ab744429c7688321878dda44e00}} 
+\index{menu.c@{menu.c}!PLAY\_XPM\_X\_START@{PLAY\_XPM\_X\_START}}
+\index{PLAY\_XPM\_X\_START@{PLAY\_XPM\_X\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{PLAY\_XPM\_X\_START}{PLAY\_XPM\_X\_START}}
+{\footnotesize\ttfamily \#define PLAY\+\_\+\+XPM\+\_\+\+X\+\_\+\+START~250}
+
+\mbox{\Hypertarget{menu_8c_a73db212c1dc7bddfc017acee6ffee6db}\label{menu_8c_a73db212c1dc7bddfc017acee6ffee6db}} 
+\index{menu.c@{menu.c}!PLAY\_XPM\_Y\_START@{PLAY\_XPM\_Y\_START}}
+\index{PLAY\_XPM\_Y\_START@{PLAY\_XPM\_Y\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{PLAY\_XPM\_Y\_START}{PLAY\_XPM\_Y\_START}}
+{\footnotesize\ttfamily \#define PLAY\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START~250}
+
+\mbox{\Hypertarget{menu_8c_aea22bb5da60435e525a2f7d7a8bd4fac}\label{menu_8c_aea22bb5da60435e525a2f7d7a8bd4fac}} 
+\index{menu.c@{menu.c}!QUIT\_XPM\_HEIGHT@{QUIT\_XPM\_HEIGHT}}
+\index{QUIT\_XPM\_HEIGHT@{QUIT\_XPM\_HEIGHT}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{QUIT\_XPM\_HEIGHT}{QUIT\_XPM\_HEIGHT}}
+{\footnotesize\ttfamily \#define QUIT\+\_\+\+XPM\+\_\+\+HEIGHT~50}
+
+\mbox{\Hypertarget{menu_8c_a2be7dc37a30c0d91e45c0f9d82f75e56}\label{menu_8c_a2be7dc37a30c0d91e45c0f9d82f75e56}} 
+\index{menu.c@{menu.c}!QUIT\_XPM\_WIDTH@{QUIT\_XPM\_WIDTH}}
+\index{QUIT\_XPM\_WIDTH@{QUIT\_XPM\_WIDTH}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{QUIT\_XPM\_WIDTH}{QUIT\_XPM\_WIDTH}}
+{\footnotesize\ttfamily \#define QUIT\+\_\+\+XPM\+\_\+\+WIDTH~300}
+
+\mbox{\Hypertarget{menu_8c_aaac4bf752bda2d272d398a8041505a1d}\label{menu_8c_aaac4bf752bda2d272d398a8041505a1d}} 
+\index{menu.c@{menu.c}!QUIT\_XPM\_X\_START@{QUIT\_XPM\_X\_START}}
+\index{QUIT\_XPM\_X\_START@{QUIT\_XPM\_X\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{QUIT\_XPM\_X\_START}{QUIT\_XPM\_X\_START}}
+{\footnotesize\ttfamily \#define QUIT\+\_\+\+XPM\+\_\+\+X\+\_\+\+START~250}
+
+\mbox{\Hypertarget{menu_8c_a5d76071a1c5ab511288c01fa932348ac}\label{menu_8c_a5d76071a1c5ab511288c01fa932348ac}} 
+\index{menu.c@{menu.c}!QUIT\_XPM\_Y\_START@{QUIT\_XPM\_Y\_START}}
+\index{QUIT\_XPM\_Y\_START@{QUIT\_XPM\_Y\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{QUIT\_XPM\_Y\_START}{QUIT\_XPM\_Y\_START}}
+{\footnotesize\ttfamily \#define QUIT\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START~475}
+
+\mbox{\Hypertarget{menu_8c_a9f0e02397db79f8c0089595a7bcd4ac8}\label{menu_8c_a9f0e02397db79f8c0089595a7bcd4ac8}} 
+\index{menu.c@{menu.c}!TETRIS\_LOGO\_XPM\_X\_START@{TETRIS\_LOGO\_XPM\_X\_START}}
+\index{TETRIS\_LOGO\_XPM\_X\_START@{TETRIS\_LOGO\_XPM\_X\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{TETRIS\_LOGO\_XPM\_X\_START}{TETRIS\_LOGO\_XPM\_X\_START}}
+{\footnotesize\ttfamily \#define TETRIS\+\_\+\+LOGO\+\_\+\+XPM\+\_\+\+X\+\_\+\+START~250}
+
+\mbox{\Hypertarget{menu_8c_a96935180d6b686ef269ce343fc5fc2ad}\label{menu_8c_a96935180d6b686ef269ce343fc5fc2ad}} 
+\index{menu.c@{menu.c}!TETRIS\_LOGO\_XPM\_Y\_START@{TETRIS\_LOGO\_XPM\_Y\_START}}
+\index{TETRIS\_LOGO\_XPM\_Y\_START@{TETRIS\_LOGO\_XPM\_Y\_START}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{TETRIS\_LOGO\_XPM\_Y\_START}{TETRIS\_LOGO\_XPM\_Y\_START}}
+{\footnotesize\ttfamily \#define TETRIS\+\_\+\+LOGO\+\_\+\+XPM\+\_\+\+Y\+\_\+\+START~25}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{menu_8c_a565fd8fef5aa1b3874722adf616cdf89}\label{menu_8c_a565fd8fef5aa1b3874722adf616cdf89}} 
+\index{menu.c@{menu.c}!clear\_instructions@{clear\_instructions}}
+\index{clear\_instructions@{clear\_instructions}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{clear\_instructions()}{clear\_instructions()}}
+{\footnotesize\ttfamily void() clear\+\_\+instructions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function clears the XPM images for the instruction. 
+
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{menu_8c_ac236c3db0ae243876d31c6d59444e1cd}\label{menu_8c_ac236c3db0ae243876d31c6d59444e1cd}} 
+\index{menu.c@{menu.c}!clear\_menu@{clear\_menu}}
+\index{clear\_menu@{clear\_menu}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{clear\_menu()}{clear\_menu()}}
+{\footnotesize\ttfamily void clear\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function clears the XPM images for the menu screen. 
+
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{menu_8c_a881dbf35f83408ef6b3f12e7c5c1aaef}\label{menu_8c_a881dbf35f83408ef6b3f12e7c5c1aaef}} 
+\index{menu.c@{menu.c}!draw\_instructions@{draw\_instructions}}
+\index{draw\_instructions@{draw\_instructions}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{draw\_instructions()}{draw\_instructions()}}
+{\footnotesize\ttfamily void() draw\+\_\+instructions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the instructions. 
+
+Here is the call graph for this function\+:
+% FIG 5
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{menu_8c_a8b436345808e86cfdb278061a65a0fe7}\label{menu_8c_a8b436345808e86cfdb278061a65a0fe7}} 
+\index{menu.c@{menu.c}!draw\_menu@{draw\_menu}}
+\index{draw\_menu@{draw\_menu}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{draw\_menu()}{draw\_menu()}}
+{\footnotesize\ttfamily void() draw\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the menu screen. 
+
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{menu_8c_a87ab8b0a7b21939cbb3d96a3dcec95cc}\label{menu_8c_a87ab8b0a7b21939cbb3d96a3dcec95cc}} 
+\index{menu.c@{menu.c}!instruction\_file\_init@{instruction\_file\_init}}
+\index{instruction\_file\_init@{instruction\_file\_init}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{instruction\_file\_init()}{instruction\_file\_init()}}
+{\footnotesize\ttfamily void() instruction\+\_\+file\+\_\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the necessary XPM image files for the menu screen. 
+
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{menu_8c_a677acea5d0ed936bbe8169f061a40fec}\label{menu_8c_a677acea5d0ed936bbe8169f061a40fec}} 
+\index{menu.c@{menu.c}!menu\_files\_init@{menu\_files\_init}}
+\index{menu\_files\_init@{menu\_files\_init}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{menu\_files\_init()}{menu\_files\_init()}}
+{\footnotesize\ttfamily void() menu\+\_\+files\+\_\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the necessary XPM image files for the menu screen. 
+
+Here is the caller graph for this function\+:
+% FIG 10
+\mbox{\Hypertarget{menu_8c_ad9df0e59e18acd09170f5b66cabf858a}\label{menu_8c_ad9df0e59e18acd09170f5b66cabf858a}} 
+\index{menu.c@{menu.c}!menu\_mouse\_handler@{menu\_mouse\_handler}}
+\index{menu\_mouse\_handler@{menu\_mouse\_handler}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{menu\_mouse\_handler()}{menu\_mouse\_handler()}}
+{\footnotesize\ttfamily bool menu\+\_\+mouse\+\_\+handler (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{scancode,  }\item[{struct mouse\+\_\+ev $\ast$}]{cur\+\_\+mouse\+\_\+ev }\end{DoxyParamCaption})}
+
+
+
+Handles mouse events on the menu screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scancode} & The scancode of the user input \\
+\hline
+{\em cur\+\_\+mouse\+\_\+ev} & The current mouse event \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the mouse event was handled, false otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 11
+Here is the caller graph for this function\+:
+% FIG 12
+\mbox{\Hypertarget{menu_8c_a5545a30474386b54802eddd5458df26b}\label{menu_8c_a5545a30474386b54802eddd5458df26b}} 
+\index{menu.c@{menu.c}!navigate\_menu@{navigate\_menu}}
+\index{navigate\_menu@{navigate\_menu}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{navigate\_menu()}{navigate\_menu()}}
+{\footnotesize\ttfamily bool() navigate\+\_\+menu (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{scancode }\end{DoxyParamCaption})}
+
+
+
+This function navigates the menu screen based on the user input. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scancode} & The scancode of the user input\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the navigation was successful; False otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 13
+Here is the caller graph for this function\+:
+% FIG 14
+\mbox{\Hypertarget{menu_8c_a9534132d51542fec5082458288d49b23}\label{menu_8c_a9534132d51542fec5082458288d49b23}} 
+\index{menu.c@{menu.c}!update\_mouse\_coordinates@{update\_mouse\_coordinates}}
+\index{update\_mouse\_coordinates@{update\_mouse\_coordinates}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{update\_mouse\_coordinates()}{update\_mouse\_coordinates()}}
+{\footnotesize\ttfamily void() update\+\_\+mouse\+\_\+coordinates (\begin{DoxyParamCaption}\item[{bool}]{draw }\end{DoxyParamCaption})}
+
+
+
+Updates the mouse coordinates on the menu screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em draw} & Whether to draw the mouse or not \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 15
+Here is the caller graph for this function\+:
+% FIG 16
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{menu_8c_ab8c8a2816ae974e5a2df22ec1e87fa51}\label{menu_8c_ab8c8a2816ae974e5a2df22ec1e87fa51}} 
+\index{menu.c@{menu.c}!game\_state@{game\_state}}
+\index{game\_state@{game\_state}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{game\_state}{game\_state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{game__state_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} game\+\_\+state = \mbox{\hyperlink{game__state_8h_a7899b65f1ea0f655e4bbf8d2a5714285a4c40e60bc71a32b924ce1f08d57f9721}{MENU}}}
+
+\mbox{\Hypertarget{menu_8c_a1c0240459b1214d30e12fe1837c71c2d}\label{menu_8c_a1c0240459b1214d30e12fe1837c71c2d}} 
+\index{menu.c@{menu.c}!instructions@{instructions}}
+\index{instructions@{instructions}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{instructions}{instructions}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t instructions}
+
+\mbox{\Hypertarget{menu_8c_aa124f7123c574f636bc50056ba659f8b}\label{menu_8c_aa124f7123c574f636bc50056ba659f8b}} 
+\index{menu.c@{menu.c}!menu\_counter@{menu\_counter}}
+\index{menu\_counter@{menu\_counter}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{menu\_counter}{menu\_counter}}
+{\footnotesize\ttfamily uint8\+\_\+t menu\+\_\+counter}
+
+\mbox{\Hypertarget{menu_8c_a26e83eca70c2b9169fbbb0eac7e32e32}\label{menu_8c_a26e83eca70c2b9169fbbb0eac7e32e32}} 
+\index{menu.c@{menu.c}!pp@{pp}}
+\index{pp@{pp}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{pp}{pp}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{mouse_8c_ab234504ae156fa5b250e34cbb65a7807}{packet}} pp\hspace{0.3cm}{\ttfamily [extern]}}
+
+\mbox{\Hypertarget{menu_8c_af554e036470b7407efc589fe2e419631}\label{menu_8c_af554e036470b7407efc589fe2e419631}} 
+\index{menu.c@{menu.c}!tetris\_logo@{tetris\_logo}}
+\index{tetris\_logo@{tetris\_logo}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{tetris\_logo}{tetris\_logo}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t tetris\+\_\+logo}
+
+\mbox{\Hypertarget{menu_8c_ae2243b8d5a64b01e5914e1273f9811b2}\label{menu_8c_ae2243b8d5a64b01e5914e1273f9811b2}} 
+\index{menu.c@{menu.c}!tetris\_mouse\_pointer@{tetris\_mouse\_pointer}}
+\index{tetris\_mouse\_pointer@{tetris\_mouse\_pointer}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{tetris\_mouse\_pointer}{tetris\_mouse\_pointer}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t tetris\+\_\+mouse\+\_\+pointer}
+
+\mbox{\Hypertarget{menu_8c_af8af1b0adb0a2d01569dec25b2fcfdc8}\label{menu_8c_af8af1b0adb0a2d01569dec25b2fcfdc8}} 
+\index{menu.c@{menu.c}!txt\_instructions@{txt\_instructions}}
+\index{txt\_instructions@{txt\_instructions}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_instructions}{txt\_instructions}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+instructions}
+
+\mbox{\Hypertarget{menu_8c_ad82a46f7de01cfe4d9d8c79e20fea07c}\label{menu_8c_ad82a46f7de01cfe4d9d8c79e20fea07c}} 
+\index{menu.c@{menu.c}!txt\_instructions\_draw@{txt\_instructions\_draw}}
+\index{txt\_instructions\_draw@{txt\_instructions\_draw}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_instructions\_draw}{txt\_instructions\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ txt\+\_\+instructions\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{menu_8c_a29d77abba4fe2c9c473b2fb23d4cc46e}\label{menu_8c_a29d77abba4fe2c9c473b2fb23d4cc46e}} 
+\index{menu.c@{menu.c}!txt\_instructions\_selected@{txt\_instructions\_selected}}
+\index{txt\_instructions\_selected@{txt\_instructions\_selected}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_instructions\_selected}{txt\_instructions\_selected}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+instructions\+\_\+selected}
+
+\mbox{\Hypertarget{menu_8c_ae9c2bf4f44533c38815d391c372d21b9}\label{menu_8c_ae9c2bf4f44533c38815d391c372d21b9}} 
+\index{menu.c@{menu.c}!txt\_leaderboard@{txt\_leaderboard}}
+\index{txt\_leaderboard@{txt\_leaderboard}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_leaderboard}{txt\_leaderboard}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+leaderboard}
+
+\mbox{\Hypertarget{menu_8c_a2e51ebd332eadabae202ec7dc9fa7335}\label{menu_8c_a2e51ebd332eadabae202ec7dc9fa7335}} 
+\index{menu.c@{menu.c}!txt\_leaderboard\_draw@{txt\_leaderboard\_draw}}
+\index{txt\_leaderboard\_draw@{txt\_leaderboard\_draw}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_leaderboard\_draw}{txt\_leaderboard\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ txt\+\_\+leaderboard\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{menu_8c_a3f27a4fdc9b88bb62fbfd6d4ecb0bc45}\label{menu_8c_a3f27a4fdc9b88bb62fbfd6d4ecb0bc45}} 
+\index{menu.c@{menu.c}!txt\_leaderboard\_selected@{txt\_leaderboard\_selected}}
+\index{txt\_leaderboard\_selected@{txt\_leaderboard\_selected}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_leaderboard\_selected}{txt\_leaderboard\_selected}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+leaderboard\+\_\+selected}
+
+\mbox{\Hypertarget{menu_8c_a4a3e9ecd6b458c37c49d7c02087567b0}\label{menu_8c_a4a3e9ecd6b458c37c49d7c02087567b0}} 
+\index{menu.c@{menu.c}!txt\_play@{txt\_play}}
+\index{txt\_play@{txt\_play}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_play}{txt\_play}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+play}
+
+\mbox{\Hypertarget{menu_8c_a88ffa2003e16e66219787f77e028684e}\label{menu_8c_a88ffa2003e16e66219787f77e028684e}} 
+\index{menu.c@{menu.c}!txt\_play\_draw@{txt\_play\_draw}}
+\index{txt\_play\_draw@{txt\_play\_draw}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_play\_draw}{txt\_play\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ txt\+\_\+play\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{menu_8c_a5597898841ec832a2eee5cd9312789c9}\label{menu_8c_a5597898841ec832a2eee5cd9312789c9}} 
+\index{menu.c@{menu.c}!txt\_play\_selected@{txt\_play\_selected}}
+\index{txt\_play\_selected@{txt\_play\_selected}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_play\_selected}{txt\_play\_selected}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+play\+\_\+selected}
+
+\mbox{\Hypertarget{menu_8c_ab87a04d05f57fdcfaed89b26fa551a06}\label{menu_8c_ab87a04d05f57fdcfaed89b26fa551a06}} 
+\index{menu.c@{menu.c}!txt\_quit@{txt\_quit}}
+\index{txt\_quit@{txt\_quit}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_quit}{txt\_quit}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+quit}
+
+\mbox{\Hypertarget{menu_8c_a6f6f22489036bcf6c07fc91384885b4c}\label{menu_8c_a6f6f22489036bcf6c07fc91384885b4c}} 
+\index{menu.c@{menu.c}!txt\_quit\_draw@{txt\_quit\_draw}}
+\index{txt\_quit\_draw@{txt\_quit\_draw}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_quit\_draw}{txt\_quit\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ txt\+\_\+quit\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{menu_8c_ae9e44a53f26dfac54c510621304a1561}\label{menu_8c_ae9e44a53f26dfac54c510621304a1561}} 
+\index{menu.c@{menu.c}!txt\_quit\_selected@{txt\_quit\_selected}}
+\index{txt\_quit\_selected@{txt\_quit\_selected}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{txt\_quit\_selected}{txt\_quit\_selected}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t txt\+\_\+quit\+\_\+selected}
+
+\mbox{\Hypertarget{menu_8c_ac5ae500a2280ad6ed571a99a11954492}\label{menu_8c_ac5ae500a2280ad6ed571a99a11954492}} 
+\index{menu.c@{menu.c}!x\_pos@{x\_pos}}
+\index{x\_pos@{x\_pos}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{x\_pos}{x\_pos}}
+{\footnotesize\ttfamily int16\+\_\+t x\+\_\+pos = 250}
+
+\mbox{\Hypertarget{menu_8c_a82663881f9567f6bf0b697b77af08d0d}\label{menu_8c_a82663881f9567f6bf0b697b77af08d0d}} 
+\index{menu.c@{menu.c}!y\_pos@{y\_pos}}
+\index{y\_pos@{y\_pos}!menu.c@{menu.c}}
+\doxysubsubsection{\texorpdfstring{y\_pos}{y\_pos}}
+{\footnotesize\ttfamily int16\+\_\+t y\+\_\+pos = 350}
+

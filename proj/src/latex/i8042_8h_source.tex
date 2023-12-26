@@ -1,0 +1,69 @@
+\hypertarget{i8042_8h_source}{}\doxysection{i8042.\+h}
+\mbox{\hyperlink{i8042_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ \_LCOM\_I8042\_H\_}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ \_LCOM\_I8042\_H\_}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ DELAY\_US\ 20000}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ MOUSE\_IRQ\ 12}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ KBC\_IRQ\ 1}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#define\ IRQ\_SET\ BIT(1)}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#define\ KBD\_ESC\_BREAK\ 0x81}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ TWO\_BYTES\ 0xE0}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ KBD\_BREAK\ BIT(7)}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ KBC\_OUT\_BUF\ 0x60}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#define\ KBC\_ST\_REG\ 0x64\ }}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ KBC\_CMD\_REG\ 0x64}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#define\ KBC\_READ\ 0x20}}
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#define\ KBC\_WRITE\ 0x60}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#define\ KBC\_PAR\_ERR\ BIT(7)}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#define\ KBC\_TO\_ERR\ BIT(6)}}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#define\ KBC\_AUX\ BIT(5)}}
+\DoxyCodeLine{00031\ \textcolor{preprocessor}{\#define\ KBC\_IBF\ BIT(1)}}
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#define\ KBC\_OBF\ BIT(0)}}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{comment}{//These\ commands\ must\ be\ written\ using\ KBC\_CMD\_REG\ defined\ above}}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#define\ KBC\_READ\_CMB\_BYTE\ 0x20}}
+\DoxyCodeLine{00037\ \textcolor{preprocessor}{\#define\ KBC\_WRITE\_CMB\_BYTE\ 0x60}}
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#define\ KBC\_SELF\_TEST\ 0xAA\ }\textcolor{comment}{//Returns\ 0x55\ if\ okay,\ 0xFC\ if\ error}}
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#define\ KBC\_CHECK\_KB\_INTERFACE\ 0xAB\ }\textcolor{comment}{//Returns\ 0,\ if\ OK}}
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#define\ KBC\_ENABLE\_KB\_INTERFACE\ 0xAE}}
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#define\ KBC\_DISABLE\_KB\_INTERFACE\ 0xAD}}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \textcolor{comment}{//Mouse}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{comment}{//The\ data\ packet}}
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#define\ LEFT\_BIT\ BIT(0)}}
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#define\ RIGHT\_BIT\ BIT(1)}}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#define\ MIDDLE\_BIT\ BIT(2)}}
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#define\ X\_SIGN\ BIT(4)}}
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#define\ Y\_SIGN\ BIT(5)}}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#define\ X\_OVFL\ BIT(6)}}
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#define\ Y\_OVFL\ BIT(7)}}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#define\ WRITE\_BYTE\_TO\_MOUSE\ 0xD4}}
+\DoxyCodeLine{00055\ \textcolor{preprocessor}{\#define\ DISABLE\_MOUSE\ 0xA7}}
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#define\ DISABLE\_DATA\_REPORTING\ 0xF5}}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#define\ ENABLE\_DATA\_REPORTING\ 0xF4}}
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#define\ SET\_REMOTE\_MODE\ 0xF0}}
+\DoxyCodeLine{00059\ \textcolor{preprocessor}{\#define\ READ\_DATA\ 0xEB}}
+\DoxyCodeLine{00060\ \textcolor{preprocessor}{\#define\ SET\_STREAM\_MODE\ 0xEA}}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{comment}{//Mouse\ Controller\ command\ responses}}
+\DoxyCodeLine{00063\ \textcolor{preprocessor}{\#define\ ACK\ 0xFA\ \ \ }\textcolor{comment}{//Acknowledged\ command\ or\ argument}}
+\DoxyCodeLine{00064\ \textcolor{preprocessor}{\#define\ NACK\ 0xFE\ \ }\textcolor{comment}{//Invalid\ byte}}
+\DoxyCodeLine{00065\ \textcolor{preprocessor}{\#define\ ERROR\ 0xFC\ }\textcolor{comment}{//Second\ consecutive\ invalid\ byte}}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_LCOM\_I8042\_H\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

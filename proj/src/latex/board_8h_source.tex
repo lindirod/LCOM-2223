@@ -1,0 +1,65 @@
+\hypertarget{board_8h_source}{}\doxysection{board.\+h}
+\mbox{\hyperlink{board_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ \_BOARD\_H\_}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ \_BOARD\_H\_}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{vbe__graphics_8h}{vbe\_graphics.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#define\ SIZE\ 20\ }\textcolor{comment}{//square\ size}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ BOARD\_MAX\_IDX\ 199}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#define\ UP\_BREAK\ 0xc8\ }}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ LEFT\_BREAK\ 0xcb\ }}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#define\ RIGHT\_BREAK\ 0xcd\ }}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ DOWN\_MAKE\ 0x50\ }}
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#define\ ESC\ 0x81}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00036\ \ \ uint16\_t\ \mbox{\hyperlink{struct_cell_aa540e7fc1194c57ff8e90e74fcb9fe12}{x}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//position\ x\ on\ board}}
+\DoxyCodeLine{00037\ \ \ uint16\_t\ \mbox{\hyperlink{struct_cell_a78632d0e014999a86702c8aa9b655245}{y}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//position\ y\ on\ board}}
+\DoxyCodeLine{00038\ \ \ uint32\_t\ \mbox{\hyperlink{struct_cell_a2dfab67dac2cac0f0d819145934d1db2}{color}};}
+\DoxyCodeLine{00039\ \}\ \mbox{\hyperlink{struct_cell}{Cell}};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00051\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00052\ \ \ \mbox{\hyperlink{struct_cell}{Cell}}\ cells[200];}
+\DoxyCodeLine{00053\ \ \ uint16\_t\ \mbox{\hyperlink{struct_board_a3003fd74e497d9e3898cb7fadfd3018c}{width}};}
+\DoxyCodeLine{00054\ \ \ uint16\_t\ \mbox{\hyperlink{struct_board_a186a8b71929d9d798ef71f516b289aea}{height}};}
+\DoxyCodeLine{00055\ \}\ \mbox{\hyperlink{struct_board}{Board}};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00063\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}{shape}}\{}
+\DoxyCodeLine{00064\ \ \ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5a21f40778b7db9343a6ca75ec2c41ccce}{T}},}
+\DoxyCodeLine{00065\ \ \ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5ad091b8e376f7cf432dc367e1eda65e85}{I}},}
+\DoxyCodeLine{00066\ \ \ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aa70478ce277ffc322f8e1e3418e07355}{Z}},}
+\DoxyCodeLine{00067\ \ \ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5af4b8b7698dfedf5562a7db2bdb07010a}{O}},}
+\DoxyCodeLine{00068\ \ \ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aef31cc6fe9479955961311ee18ac205f}{L}},}
+\DoxyCodeLine{00069\ \};}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00082\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00083\ \ \ uint16\_t\ board\_index[4];}
+\DoxyCodeLine{00084\ \ \ uint32\_t\ \mbox{\hyperlink{struct_piece_ac0a9ffb9cbcf6e4d591f76fcea5fa8dc}{color}};}
+\DoxyCodeLine{00085\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_piece_a4de16272a20884910c2c7361bf971e63}{rot}};\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//1\ to\ 4}}
+\DoxyCodeLine{00086\ \ \ \mbox{\hyperlink{struct_board}{Board}}\ *\mbox{\hyperlink{struct_piece_aa23f2a4f757b9164687cbc197c0022fd}{board}};}
+\DoxyCodeLine{00087\ \ \ \textcolor{keyword}{enum}\ \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}{shape}}\ \mbox{\hyperlink{struct_piece_aa512916246625f3cef9c8fee86ee4c5b}{piece\_shape}};}
+\DoxyCodeLine{00088\ \}\ \mbox{\hyperlink{struct_piece}{Piece}};}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00097\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{board_8h_a922ae13d6cc712c13f6d6bdf85a0b098}{draw\_board}}(\mbox{\hyperlink{struct_board}{Board}}*\ board);}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00108\ \mbox{\hyperlink{struct_piece}{Piece}}*\ \mbox{\hyperlink{board_8h_a7f5822c6511e375f9b796d7ef0bf3bff}{new\_piece}}(\mbox{\hyperlink{struct_board}{Board}}*\ board);}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00117\ \mbox{\hyperlink{struct_board}{Board}}*\ \mbox{\hyperlink{board_8h_af103816f6a5b108be6139a1b73dc168b}{new\_board}}();}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00124\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{board_8h_adaa0b31ef3c2e39f979db5f7feb9bd4f}{delete\_piece}}(\mbox{\hyperlink{struct_piece}{Piece}}*\ piece);}
+\DoxyCodeLine{00125\ }
+\DoxyCodeLine{00131\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{board_8h_a5ab138241d19c1826240ea803c970d9d}{delete\_board}}(\mbox{\hyperlink{struct_board}{Board}}\ *board);}
+\DoxyCodeLine{00132\ }
+\DoxyCodeLine{00133\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

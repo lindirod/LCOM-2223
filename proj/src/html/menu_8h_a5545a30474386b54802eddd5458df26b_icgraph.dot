@@ -1,0 +1,11 @@
+digraph "navigate_menu"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="navigate_menu",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This function navigates the menu screen based on the user input."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="proj_main_loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+}

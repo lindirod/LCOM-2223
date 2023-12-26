@@ -1,0 +1,28 @@
+var game__timer_8c =
+[
+    [ "game_counter", "game__timer_8c.html#a9a5bd635a15d46f26cf4b60ebbedac3a", null ],
+    [ "timer_files_init", "game__timer_8c.html#a93615f9c3349716694bc6cdf80615f72", null ],
+    [ "colon", "game__timer_8c.html#abe1dc2535f74dd2b881998ae97bad22b", null ],
+    [ "colon_draw", "game__timer_8c.html#a5bff29015c38de1b556cedd4c6cee618", null ],
+    [ "eight", "game__timer_8c.html#a1be71edbf01ce2da7f41e00c8b073c2b", null ],
+    [ "eight_draw", "game__timer_8c.html#a0a30fa524c347a75d0dd0a73f072ab82", null ],
+    [ "five", "game__timer_8c.html#a2ff9c0f7beb921fefa53034601e47d9a", null ],
+    [ "five_draw", "game__timer_8c.html#ad4b979b26b162a63ea567c160e46bead", null ],
+    [ "four", "game__timer_8c.html#a28e995dbdaf728c9dc83baa953098ecc", null ],
+    [ "four_draw", "game__timer_8c.html#aebab10c228c175767f0ef76a560b6bbf", null ],
+    [ "game_timer", "game__timer_8c.html#a9fd967ce9d51a49c7cab2363583e12b3", null ],
+    [ "nine", "game__timer_8c.html#a79e1139e3876bd7633e5e5cc5fa3b0b2", null ],
+    [ "nine_draw", "game__timer_8c.html#a7b04acb71fbb28cb1abd132e85230f39", null ],
+    [ "one", "game__timer_8c.html#a9b034c363d055f9df18d1a10c42e501b", null ],
+    [ "one_draw", "game__timer_8c.html#a368d5406b2472311f1c47ff266f61af3", null ],
+    [ "seven", "game__timer_8c.html#ad3af128b4628c91b43a3f5d1f014e543", null ],
+    [ "seven_draw", "game__timer_8c.html#ab12663ba6d2a32af4e31738c471df849", null ],
+    [ "six", "game__timer_8c.html#a1fe7784c6cf5cff30b00f030f4f62298", null ],
+    [ "six_draw", "game__timer_8c.html#ae6b839ebaa0a59ecbc773deed87ac322", null ],
+    [ "three", "game__timer_8c.html#abf155d9777dcf10bfea3592038320f53", null ],
+    [ "three_draw", "game__timer_8c.html#a4076ddf4f243f6e56c11dd073bf01873", null ],
+    [ "two", "game__timer_8c.html#ab6803d44b5db00e0928a077628b4ff0b", null ],
+    [ "two_draw", "game__timer_8c.html#a775add35cc89b5e0595781648f271979", null ],
+    [ "zero", "game__timer_8c.html#a4c69ee4e7b67e855249cf3b9f66d99ae", null ],
+    [ "zero_draw", "game__timer_8c.html#a7780a18a39b9a239a6209447a7f11112", null ]
+];

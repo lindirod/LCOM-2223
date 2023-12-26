@@ -1,0 +1,27 @@
+var files_dup =
+[
+    [ "board.c", "board_8c.html", "board_8c" ],
+    [ "board.h", "board_8h.html", "board_8h" ],
+    [ "game.c", "game_8c.html", "game_8c" ],
+    [ "game.h", "game_8h.html", "game_8h" ],
+    [ "game_state.h", "game__state_8h.html", "game__state_8h" ],
+    [ "game_timer.c", "game__timer_8c.html", "game__timer_8c" ],
+    [ "game_timer.h", "game__timer_8h.html", "game__timer_8h" ],
+    [ "i8042.h", "i8042_8h.html", "i8042_8h" ],
+    [ "i8254.h", "i8254_8h.html", "i8254_8h" ],
+    [ "keyboard.c", "keyboard_8c.html", "keyboard_8c" ],
+    [ "keyboard.h", "keyboard_8h.html", "keyboard_8h" ],
+    [ "keys.h", "keys_8h.html", "keys_8h" ],
+    [ "menu.c", "menu_8c.html", "menu_8c" ],
+    [ "menu.h", "menu_8h.html", "menu_8h" ],
+    [ "mouse.c", "mouse_8c.html", "mouse_8c" ],
+    [ "mouse.h", "mouse_8h.html", "mouse_8h" ],
+    [ "piece_move.c", "piece__move_8c.html", "piece__move_8c" ],
+    [ "piece_move.h", "piece__move_8h.html", "piece__move_8h" ],
+    [ "pixmap.h", "pixmap_8h.html", "pixmap_8h" ],
+    [ "proj.c", "proj_8c.html", "proj_8c" ],
+    [ "timer.c", "timer_8c.html", "timer_8c" ],
+    [ "utils.c", "utils_8c.html", "utils_8c" ],
+    [ "vbe_graphics.c", "vbe__graphics_8c.html", "vbe__graphics_8c" ],
+    [ "vbe_graphics.h", "vbe__graphics_8h.html", "vbe__graphics_8h" ]
+];

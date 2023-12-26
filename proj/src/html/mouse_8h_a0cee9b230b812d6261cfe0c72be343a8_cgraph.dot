@@ -1,0 +1,16 @@
+digraph "write_to_mouse"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="write_to_mouse",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Writes a command to the mouse."];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="util_sys_inb",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4",tooltip="Reads from the port and transforms it into an 8 bit value."];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="write_kbc_command",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$mouse_8c.html#acd2de5dc5731158db5229777028cb855",tooltip="Writes a command to the keyboard controller."];
+  Node3 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="read_kbc_status",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$mouse_8c.html#a56ce3da7a1cebb928912020a9e554828",tooltip="Reads the status of the keyboard controller."];
+  Node4 -> Node2 [color="steelblue1",style="solid"];
+}

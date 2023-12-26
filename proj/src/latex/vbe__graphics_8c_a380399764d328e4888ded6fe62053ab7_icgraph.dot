@@ -1,0 +1,25 @@
+digraph "draw_xpm"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="draw_xpm",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Draws an xpm image on the screen."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="draw_instructions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$menu_8c.html#a881dbf35f83408ef6b3f12e7c5c1aaef",tooltip="Draws the instructions."];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="proj_main_loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="draw_menu",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$menu_8c.html#a8b436345808e86cfdb278061a65a0fe7",tooltip="Draws the menu screen."];
+  Node4 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="menu_mouse_handler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$menu_8c.html#ad9df0e59e18acd09170f5b66cabf858a",tooltip="Handles mouse events on the menu screen."];
+  Node5 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="draw_score",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$game_8c.html#a200dcd33e635176ca83ddde81b7b7610",tooltip="Draws the score XPM image."];
+  Node6 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="game_counter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$game__timer_8c.html#a9a5bd635a15d46f26cf4b60ebbedac3a",tooltip="Draws the game timer on the screen."];
+  Node7 -> Node3 [dir="back",color="steelblue1",style="solid"];
+}

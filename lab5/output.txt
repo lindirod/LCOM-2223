@@ -1,0 +1,1011 @@
+B1=0x09 B2=0x00 B3=0x00 LB=1 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=0
+Mouse position: (250, 275) | New option: -1 | Previous option: -1
+B1=0x08 B2=0x00 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=0
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-6
+Mouse position: (250, 281) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-14
+Mouse position: (250, 289) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-8
+Mouse position: (250, 283) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-5
+Mouse position: (250, 280) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: -1
+B1=0x28 B2=0x02 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-1
+Mouse position: (252, 276) | New option: 0 | Previous option: -1
+B1=0x08 B2=0x02 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=0
+Mouse position: (252, 275) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-8
+Mouse position: (250, 283) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-10
+Mouse position: (250, 285) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-3
+Mouse position: (254, 278) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x05 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=0
+Mouse position: (255, 275) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0c B3=0xff LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-1
+Mouse position: (262, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0f B3=0xff LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-1
+Mouse position: (265, 276) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x23 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=35 YOV=0 Y=0
+Mouse position: (285, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x10 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=0
+Mouse position: (266, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x11 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=17 YOV=0 Y=0
+Mouse position: (267, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x10 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=0
+Mouse position: (266, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x20 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=32 YOV=0 Y=0
+Mouse position: (282, 275) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0f B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-3
+Mouse position: (265, 278) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xff LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-1
+Mouse position: (263, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x16 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=22 YOV=0 Y=-2
+Mouse position: (272, 277) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xff LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-1
+Mouse position: (260, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x09 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-1
+Mouse position: (259, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x10 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=-3
+Mouse position: (266, 278) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-1
+Mouse position: (255, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-1
+Mouse position: (256, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-2
+Mouse position: (260, 277) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-1
+Mouse position: (254, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-1
+Mouse position: (257, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-1
+Mouse position: (257, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0e B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=14 YOV=0 Y=-4
+Mouse position: (264, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-1
+Mouse position: (257, 276) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x06 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=0
+Mouse position: (256, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x0a B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=0
+Mouse position: (260, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x05 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=0
+Mouse position: (255, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x07 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=0
+Mouse position: (257, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x04 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=0
+Mouse position: (254, 275) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x01 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=0
+Mouse position: (251, 275) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-1
+Mouse position: (251, 276) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x02 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=0
+Mouse position: (252, 275) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-6
+Mouse position: (255, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-11
+Mouse position: (258, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0b B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-23
+Mouse position: (261, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-12
+Mouse position: (255, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-12
+Mouse position: (255, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-14
+Mouse position: (256, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x11 B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=17 YOV=0 Y=-30
+Mouse position: (267, 305) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-14
+Mouse position: (255, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-15
+Mouse position: (257, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-14
+Mouse position: (257, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xed LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-19
+Mouse position: (260, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-9
+Mouse position: (253, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-8
+Mouse position: (253, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-11
+Mouse position: (255, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-6
+Mouse position: (252, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-7
+Mouse position: (253, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-10
+Mouse position: (255, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-1
+Mouse position: (251, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-6
+Mouse position: (252, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-4
+Mouse position: (251, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-9
+Mouse position: (254, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-3
+Mouse position: (251, 278) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-3
+Mouse position: (251, 278) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-5
+Mouse position: (251, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-11
+Mouse position: (255, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-10
+Mouse position: (256, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-13
+Mouse position: (255, 288) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0b B3=0xea LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-22
+Mouse position: (261, 297) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-9
+Mouse position: (254, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-21
+Mouse position: (258, 296) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-13
+Mouse position: (256, 288) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-10
+Mouse position: (257, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-13
+Mouse position: (256, 288) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-26
+Mouse position: (263, 301) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-12
+Mouse position: (257, 287) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x05 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-8
+Mouse position: (255, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-15
+Mouse position: (260, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-8
+Mouse position: (253, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-9
+Mouse position: (254, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-23
+Mouse position: (258, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-10
+Mouse position: (255, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-13
+Mouse position: (255, 288) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-19
+Mouse position: (258, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-4
+Mouse position: (251, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-2
+Mouse position: (253, 277) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0b B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-9
+Mouse position: (261, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x16 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=22 YOV=0 Y=-15
+Mouse position: (272, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x1f B3=0xe7 LB=0 MB=0 RB=0 XOV=0 X=31 YOV=0 Y=-25
+Mouse position: (281, 300) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x37 B3=0xd8 LB=0 MB=0 RB=0 XOV=0 X=55 YOV=0 Y=-40
+Mouse position: (305, 315) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x1c B3=0xec LB=0 MB=0 RB=0 XOV=0 X=28 YOV=0 Y=-20
+Mouse position: (278, 295) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x1b B3=0xed LB=0 MB=0 RB=0 XOV=0 X=27 YOV=0 Y=-19
+Mouse position: (277, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x34 B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=52 YOV=0 Y=-37
+Mouse position: (302, 312) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x1c B3=0xed LB=0 MB=0 RB=0 XOV=0 X=28 YOV=0 Y=-19
+Mouse position: (278, 294) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x1b B3=0xee LB=0 MB=0 RB=0 XOV=0 X=27 YOV=0 Y=-18
+Mouse position: (277, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x36 B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=54 YOV=0 Y=-37
+Mouse position: (304, 312) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x1f B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=31 YOV=0 Y=-10
+Mouse position: (281, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x19 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=25 YOV=0 Y=-19
+Mouse position: (275, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x2e B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=46 YOV=0 Y=-37
+Mouse position: (296, 312) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x13 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=19 YOV=0 Y=-17
+Mouse position: (269, 292) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x13 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=19 YOV=0 Y=-19
+Mouse position: (269, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x22 B3=0xda LB=0 MB=0 RB=0 XOV=0 X=34 YOV=0 Y=-38
+Mouse position: (284, 313) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x0f B3=0xee LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-18
+Mouse position: (265, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xee LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-18
+Mouse position: (263, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x13 B3=0xe7 LB=0 MB=0 RB=0 XOV=0 X=19 YOV=0 Y=-25
+Mouse position: (269, 300) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-11
+Mouse position: (257, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-12
+Mouse position: (257, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-11
+Mouse position: (255, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x09 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-19
+Mouse position: (259, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-10
+Mouse position: (253, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-9
+Mouse position: (252, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-9
+Mouse position: (253, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-16
+Mouse position: (253, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-13
+Mouse position: (250, 288) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-10
+Mouse position: (250, 285) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-12
+Mouse position: (250, 287) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-12
+Mouse position: (250, 287) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-26
+Mouse position: (250, 301) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-12
+Mouse position: (251, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-14
+Mouse position: (251, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-26
+Mouse position: (250, 301) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-12
+Mouse position: (250, 287) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-11
+Mouse position: (250, 286) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-17
+Mouse position: (250, 292) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-5
+Mouse position: (250, 280) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-6
+Mouse position: (250, 281) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xff B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-2
+Mouse position: (249, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-8
+Mouse position: (250, 283) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xee LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-18
+Mouse position: (252, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xe8 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-24
+Mouse position: (257, 299) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-19
+Mouse position: (251, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x13 B3=0xdd LB=0 MB=0 RB=0 XOV=0 X=19 YOV=0 Y=-35
+Mouse position: (269, 310) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-14
+Mouse position: (257, 289) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x07 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-4
+Mouse position: (257, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x15 B3=0xd7 LB=0 MB=0 RB=0 XOV=0 X=21 YOV=0 Y=-41
+Mouse position: (271, 316) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x0c B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-23
+Mouse position: (262, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0f B3=0xe5 LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-27
+Mouse position: (265, 302) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-23
+Mouse position: (263, 298) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x1d B3=0xce LB=0 MB=0 RB=0 XOV=0 X=29 YOV=0 Y=-50
+Mouse position: (279, 325) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x10 B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=-29
+Mouse position: (266, 304) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x10 B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=-30
+Mouse position: (266, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x19 B3=0xc7 LB=0 MB=0 RB=0 XOV=0 X=25 YOV=0 Y=-57
+Mouse position: (275, 332) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x10 B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=-30
+Mouse position: (266, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0d B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-29
+Mouse position: (263, 304) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0e B3=0xe0 LB=0 MB=0 RB=0 XOV=0 X=14 YOV=0 Y=-32
+Mouse position: (264, 307) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x20 B3=0xb6 LB=0 MB=0 RB=0 XOV=0 X=32 YOV=0 Y=-74
+Mouse position: (282, 349) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0f B3=0xd3 LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-45
+Mouse position: (265, 320) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x20 B3=0xa7 LB=0 MB=0 RB=0 XOV=0 X=32 YOV=0 Y=-89
+Mouse position: (282, 364) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0d B3=0xef LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-17
+Mouse position: (263, 292) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x0d B3=0xd4 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-44
+Mouse position: (263, 319) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xd7 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-41
+Mouse position: (263, 316) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x15 B3=0xb5 LB=0 MB=0 RB=0 XOV=0 X=21 YOV=0 Y=-75
+Mouse position: (271, 350) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0a B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-37
+Mouse position: (260, 312) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x08 B3=0xe5 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-27
+Mouse position: (258, 302) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x05 B3=0xe5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-27
+Mouse position: (255, 302) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x09 B3=0xd5 LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-43
+Mouse position: (259, 318) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x05 B3=0xec LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-20
+Mouse position: (255, 295) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x03 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-17
+Mouse position: (253, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-30
+Mouse position: (257, 305) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-14
+Mouse position: (254, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-15
+Mouse position: (254, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xe8 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-24
+Mouse position: (255, 299) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-12
+Mouse position: (254, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-10
+Mouse position: (252, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-8
+Mouse position: (251, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-8
+Mouse position: (253, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-15
+Mouse position: (254, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-16
+Mouse position: (254, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-29
+Mouse position: (260, 304) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-12
+Mouse position: (255, 287) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x03 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-10
+Mouse position: (253, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-11
+Mouse position: (254, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-17
+Mouse position: (256, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-8
+Mouse position: (254, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-1
+Mouse position: (251, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-1
+Mouse position: (251, 276) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-8
+Mouse position: (257, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-16
+Mouse position: (258, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x09 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-14
+Mouse position: (259, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-21
+Mouse position: (263, 296) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-8
+Mouse position: (254, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-6
+Mouse position: (253, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-4
+Mouse position: (252, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-5
+Mouse position: (254, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-4
+Mouse position: (251, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-6
+Mouse position: (252, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-10
+Mouse position: (255, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-6
+Mouse position: (255, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-5
+Mouse position: (252, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-15
+Mouse position: (255, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-2
+Mouse position: (252, 277) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-2
+Mouse position: (251, 277) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-7
+Mouse position: (251, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-14
+Mouse position: (251, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-15
+Mouse position: (253, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-29
+Mouse position: (254, 304) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-10
+Mouse position: (253, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-9
+Mouse position: (252, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-5
+Mouse position: (251, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-5
+Mouse position: (252, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-4
+Mouse position: (252, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-4
+Mouse position: (252, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-2
+Mouse position: (251, 277) | New option: 0 | Previous option: 0
+B1=0x08 B2=0x01 B3=0x00 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=0
+Mouse position: (251, 275) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-4
+Mouse position: (251, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-4
+Mouse position: (251, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-6
+Mouse position: (251, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-9
+Mouse position: (251, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-4
+Mouse position: (252, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-5
+Mouse position: (251, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-5
+Mouse position: (250, 280) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-6
+Mouse position: (252, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-5
+Mouse position: (250, 280) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-11
+Mouse position: (251, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-8
+Mouse position: (252, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-9
+Mouse position: (251, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-17
+Mouse position: (252, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-9
+Mouse position: (253, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-9
+Mouse position: (251, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-19
+Mouse position: (256, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-10
+Mouse position: (254, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-11
+Mouse position: (253, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-12
+Mouse position: (254, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xec LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-20
+Mouse position: (255, 295) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-11
+Mouse position: (254, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-19
+Mouse position: (257, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-11
+Mouse position: (253, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-14
+Mouse position: (257, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-15
+Mouse position: (257, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0f B3=0xe1 LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-31
+Mouse position: (265, 306) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xee LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-18
+Mouse position: (257, 293) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x08 B3=0xee LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-18
+Mouse position: (258, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-23
+Mouse position: (263, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-12
+Mouse position: (256, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-11
+Mouse position: (255, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-10
+Mouse position: (254, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x09 B3=0xee LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-18
+Mouse position: (259, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-11
+Mouse position: (255, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-11
+Mouse position: (256, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-12
+Mouse position: (257, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0c B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-26
+Mouse position: (262, 301) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-12
+Mouse position: (257, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-14
+Mouse position: (257, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0d B3=0xe7 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-25
+Mouse position: (263, 300) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-12
+Mouse position: (257, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-11
+Mouse position: (257, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0b B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-21
+Mouse position: (261, 296) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-11
+Mouse position: (255, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-10
+Mouse position: (257, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-11
+Mouse position: (257, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0c B3=0xea LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-22
+Mouse position: (262, 297) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-10
+Mouse position: (258, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-13
+Mouse position: (258, 288) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x12 B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=18 YOV=0 Y=-23
+Mouse position: (268, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-14
+Mouse position: (260, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-13
+Mouse position: (260, 288) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x09 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-12
+Mouse position: (259, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x16 B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=22 YOV=0 Y=-29
+Mouse position: (272, 304) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x0b B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-14
+Mouse position: (261, 289) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x0c B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-15
+Mouse position: (262, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x20 B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=32 YOV=0 Y=-37
+Mouse position: (282, 312) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x12 B3=0xea LB=0 MB=0 RB=0 XOV=0 X=18 YOV=0 Y=-22
+Mouse position: (268, 297) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x17 B3=0xea LB=0 MB=0 RB=0 XOV=0 X=23 YOV=0 Y=-22
+Mouse position: (273, 297) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x2e B3=0xd2 LB=0 MB=0 RB=0 XOV=0 X=46 YOV=0 Y=-46
+Mouse position: (296, 321) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x1d B3=0xe5 LB=0 MB=0 RB=0 XOV=0 X=29 YOV=0 Y=-27
+Mouse position: (279, 302) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x23 B3=0xe1 LB=0 MB=0 RB=0 XOV=0 X=35 YOV=0 Y=-31
+Mouse position: (285, 306) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x54 B3=0xd1 LB=0 MB=0 RB=0 XOV=0 X=84 YOV=0 Y=-47
+Mouse position: (334, 322) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2a B3=0xe0 LB=0 MB=0 RB=0 XOV=0 X=42 YOV=0 Y=-32
+Mouse position: (292, 307) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x30 B3=0xdc LB=0 MB=0 RB=0 XOV=0 X=48 YOV=0 Y=-36
+Mouse position: (298, 311) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x66 B3=0xb7 LB=0 MB=0 RB=0 XOV=0 X=102 YOV=0 Y=-73
+Mouse position: (352, 348) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2f B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=47 YOV=0 Y=-30
+Mouse position: (297, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2f B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=47 YOV=0 Y=-29
+Mouse position: (297, 304) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2f B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=47 YOV=0 Y=-30
+Mouse position: (297, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x39 B3=0xc8 LB=0 MB=0 RB=0 XOV=0 X=57 YOV=0 Y=-56
+Mouse position: (307, 331) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x35 B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=53 YOV=0 Y=-29
+Mouse position: (303, 304) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x38 B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=56 YOV=0 Y=-30
+Mouse position: (306, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x81 B3=0xc4 LB=0 MB=0 RB=0 XOV=0 X=129 YOV=0 Y=-60
+Mouse position: (379, 335) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x42 B3=0xe4 LB=0 MB=0 RB=0 XOV=0 X=66 YOV=0 Y=-28
+Mouse position: (316, 303) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x44 B3=0xe4 LB=0 MB=0 RB=0 XOV=0 X=68 YOV=0 Y=-28
+Mouse position: (318, 303) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x48 B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=72 YOV=0 Y=-26
+Mouse position: (322, 301) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x95 B3=0xcf LB=0 MB=0 RB=0 XOV=0 X=149 YOV=0 Y=-49
+Mouse position: (399, 324) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x4b B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=75 YOV=0 Y=-21
+Mouse position: (325, 296) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x4a B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=74 YOV=0 Y=-23
+Mouse position: (324, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x76 B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=118 YOV=0 Y=-37
+Mouse position: (368, 312) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x40 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=64 YOV=0 Y=-17
+Mouse position: (314, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x33 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=51 YOV=0 Y=-16
+Mouse position: (301, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x64 B3=0xd8 LB=0 MB=0 RB=0 XOV=0 X=100 YOV=0 Y=-40
+Mouse position: (350, 315) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x31 B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=49 YOV=0 Y=-21
+Mouse position: (299, 296) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x2a B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=42 YOV=0 Y=-15
+Mouse position: (292, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x4d B3=0xdf LB=0 MB=0 RB=0 XOV=0 X=77 YOV=0 Y=-33
+Mouse position: (327, 308) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x20 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=32 YOV=0 Y=-14
+Mouse position: (282, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x19 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=25 YOV=0 Y=-10
+Mouse position: (275, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x17 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=23 YOV=0 Y=-11
+Mouse position: (273, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x27 B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=39 YOV=0 Y=-21
+Mouse position: (289, 296) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0e B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=14 YOV=0 Y=-10
+Mouse position: (264, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0c B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-8
+Mouse position: (262, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0b B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-8
+Mouse position: (261, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0e B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=14 YOV=0 Y=-14
+Mouse position: (264, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-6
+Mouse position: (255, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-7
+Mouse position: (255, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-23
+Mouse position: (258, 298) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-14
+Mouse position: (254, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-15
+Mouse position: (254, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xe0 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-32
+Mouse position: (258, 307) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-17
+Mouse position: (254, 292) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x05 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-17
+Mouse position: (255, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xdc LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-36
+Mouse position: (260, 311) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xe8 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-24
+Mouse position: (255, 299) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-29
+Mouse position: (255, 304) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xdf LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-33
+Mouse position: (256, 308) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0c B3=0xd3 LB=0 MB=0 RB=0 XOV=0 X=12 YOV=0 Y=-45
+Mouse position: (262, 320) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x08 B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-37
+Mouse position: (258, 312) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x04 B3=0xe3 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-29
+Mouse position: (254, 304) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x06 B3=0xb7 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-73
+Mouse position: (256, 348) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x06 B3=0xd8 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-40
+Mouse position: (256, 315) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0a B3=0xb6 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-74
+Mouse position: (260, 349) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x07 B3=0xd8 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-40
+Mouse position: (257, 315) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0a B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-37
+Mouse position: (260, 312) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0a B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-37
+Mouse position: (260, 312) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x12 B3=0xbc LB=0 MB=0 RB=0 XOV=0 X=18 YOV=0 Y=-68
+Mouse position: (268, 343) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0b B3=0xdb LB=0 MB=0 RB=0 XOV=0 X=11 YOV=0 Y=-37
+Mouse position: (261, 312) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x08 B3=0xda LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-38
+Mouse position: (258, 313) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0a B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-30
+Mouse position: (260, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0f B3=0xc8 LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-56
+Mouse position: (265, 331) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x07 B3=0xe2 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-30
+Mouse position: (257, 305) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0a B3=0xe4 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-28
+Mouse position: (260, 303) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x09 B3=0xe1 LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-31
+Mouse position: (259, 306) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0f B3=0xca LB=0 MB=0 RB=0 XOV=0 X=15 YOV=0 Y=-54
+Mouse position: (265, 329) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x07 B3=0xe5 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-27
+Mouse position: (257, 302) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x09 B3=0xe4 LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-28
+Mouse position: (259, 303) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x11 B3=0xd2 LB=0 MB=0 RB=0 XOV=0 X=17 YOV=0 Y=-46
+Mouse position: (267, 321) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x09 B3=0xea LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-22
+Mouse position: (259, 297) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x05 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-15
+Mouse position: (255, 290) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xe1 LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-31
+Mouse position: (260, 306) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-12
+Mouse position: (254, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-10
+Mouse position: (254, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-16
+Mouse position: (256, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-8
+Mouse position: (252, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-7
+Mouse position: (252, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-8
+Mouse position: (252, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-16
+Mouse position: (255, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-6
+Mouse position: (252, 281) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-4
+Mouse position: (251, 279) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-2
+Mouse position: (251, 277) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-6
+Mouse position: (250, 281) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-9
+Mouse position: (250, 284) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-13
+Mouse position: (250, 288) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-12
+Mouse position: (250, 287) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xee LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-18
+Mouse position: (250, 293) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-5
+Mouse position: (250, 280) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-11
+Mouse position: (250, 286) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-6
+Mouse position: (250, 281) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-11
+Mouse position: (251, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-10
+Mouse position: (252, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xe5 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-27
+Mouse position: (254, 302) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-15
+Mouse position: (251, 290) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x03 B3=0xe7 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-25
+Mouse position: (253, 300) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-3
+Mouse position: (251, 278) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-9
+Mouse position: (250, 284) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-8
+Mouse position: (250, 283) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-17
+Mouse position: (250, 292) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-8
+Mouse position: (251, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-9
+Mouse position: (251, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-8
+Mouse position: (250, 283) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-21
+Mouse position: (252, 296) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-12
+Mouse position: (251, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-11
+Mouse position: (253, 286) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xe8 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-24
+Mouse position: (252, 299) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-10
+Mouse position: (252, 285) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-9
+Mouse position: (250, 284) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-17
+Mouse position: (252, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-9
+Mouse position: (251, 284) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-7
+Mouse position: (251, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-8
+Mouse position: (252, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-16
+Mouse position: (252, 291) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-7
+Mouse position: (251, 282) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x01 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=1 YOV=0 Y=-8
+Mouse position: (251, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x03 B3=0xee LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-18
+Mouse position: (253, 293) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-6
+Mouse position: (250, 281) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xff B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-8
+Mouse position: (249, 283) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xfd B3=0xeb LB=0 MB=0 RB=0 XOV=0 X=-3 YOV=0 Y=-21
+Mouse position: (247, 296) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xff B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-11
+Mouse position: (249, 286) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xfe B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=-2 YOV=0 Y=-12
+Mouse position: (248, 287) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xff B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-12
+Mouse position: (249, 287) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xfe B3=0xe8 LB=0 MB=0 RB=0 XOV=0 X=-2 YOV=0 Y=-24
+Mouse position: (248, 299) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf5 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-11
+Mouse position: (250, 286) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf6 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-10
+Mouse position: (250, 285) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-19
+Mouse position: (250, 294) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-7
+Mouse position: (250, 282) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfc LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-4
+Mouse position: (250, 279) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x38 B2=0xff B3=0xff LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-1
+Mouse position: (249, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xf3 LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-13
+Mouse position: (250, 288) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xdc LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-36
+Mouse position: (255, 311) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x10 B3=0xa0 LB=0 MB=0 RB=0 XOV=0 X=16 YOV=0 Y=-96
+Mouse position: (266, 371) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-26
+Mouse position: (256, 301) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x05 B3=0xec LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-20
+Mouse position: (255, 295) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x03 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-19
+Mouse position: (253, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xff LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-1
+Mouse position: (250, 276) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x00 B3=0xfe LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-2
+Mouse position: (250, 277) | New option: -1 | Previous option: 0
+B1=0x28 B2=0x02 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-5
+Mouse position: (252, 280) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-12
+Mouse position: (254, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x06 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-17
+Mouse position: (256, 292) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x16 B3=0xcd LB=0 MB=0 RB=0 XOV=0 X=22 YOV=0 Y=-51
+Mouse position: (272, 326) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x0a B3=0xea LB=0 MB=0 RB=0 XOV=0 X=10 YOV=0 Y=-22
+Mouse position: (260, 297) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x08 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-19
+Mouse position: (258, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-14
+Mouse position: (255, 289) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xf8 LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-8
+Mouse position: (254, 283) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x05 B3=0xe0 LB=0 MB=0 RB=0 XOV=0 X=5 YOV=0 Y=-32
+Mouse position: (255, 307) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x07 B3=0xcc LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-52
+Mouse position: (257, 327) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x07 B3=0xc5 LB=0 MB=0 RB=0 XOV=0 X=7 YOV=0 Y=-59
+Mouse position: (257, 334) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x03 B3=0xcc LB=0 MB=0 RB=0 XOV=0 X=3 YOV=0 Y=-52
+Mouse position: (253, 327) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x02 B3=0xa4 LB=0 MB=0 RB=0 XOV=0 X=2 YOV=0 Y=-92
+Mouse position: (252, 367) | New option: 1 | Previous option: 1
+B1=0x38 B2=0xff B3=0xda LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-38
+Mouse position: (249, 313) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfc B3=0xe0 LB=0 MB=0 RB=0 XOV=0 X=-4 YOV=0 Y=-32
+Mouse position: (246, 307) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xf9 B3=0xcf LB=0 MB=0 RB=0 XOV=0 X=-7 YOV=0 Y=-49
+Mouse position: (243, 324) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfd B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=-3 YOV=0 Y=-26
+Mouse position: (247, 301) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfe B3=0xea LB=0 MB=0 RB=0 XOV=0 X=-2 YOV=0 Y=-22
+Mouse position: (248, 297) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xff B3=0xf0 LB=0 MB=0 RB=0 XOV=0 X=-1 YOV=0 Y=-16
+Mouse position: (249, 291) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfd B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=-3 YOV=0 Y=-26
+Mouse position: (247, 301) | New option: -1 | Previous option: 1
+B1=0x28 B2=0x00 B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=0 YOV=0 Y=-3
+Mouse position: (250, 278) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfd B3=0xe1 LB=0 MB=0 RB=0 XOV=0 X=-3 YOV=0 Y=-31
+Mouse position: (247, 306) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xf6 B3=0xad LB=0 MB=0 RB=0 XOV=0 X=-10 YOV=0 Y=-83
+Mouse position: (240, 358) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xde B3=0x0a LB=0 MB=0 RB=0 XOV=0 X=-34 YOV=0 Y=-246
+Mouse position: (216, 521) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xec B3=0x74 LB=0 MB=0 RB=0 XOV=0 X=-20 YOV=0 Y=-140
+Mouse position: (230, 415) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xec B3=0xfd LB=0 MB=0 RB=0 XOV=0 X=-20 YOV=0 Y=-3
+Mouse position: (230, 278) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xe9 B3=0x6d LB=0 MB=0 RB=0 XOV=0 X=-23 YOV=0 Y=-147
+Mouse position: (227, 422) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xc3 B3=0x01 LB=0 MB=0 RB=0 XOV=0 X=-61 YOV=0 Y=-255
+Mouse position: (189, 530) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xe4 B3=0x77 LB=0 MB=0 RB=0 XOV=0 X=-28 YOV=0 Y=-137
+Mouse position: (222, 412) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xe0 B3=0xef LB=0 MB=0 RB=0 XOV=0 X=-32 YOV=0 Y=-17
+Mouse position: (218, 292) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xd1 B3=0x23 LB=0 MB=0 RB=0 XOV=0 X=-47 YOV=0 Y=-221
+Mouse position: (203, 496) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xeb B3=0xa5 LB=0 MB=0 RB=0 XOV=0 X=-21 YOV=0 Y=-91
+Mouse position: (229, 366) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xee B3=0xb6 LB=0 MB=0 RB=0 XOV=0 X=-18 YOV=0 Y=-74
+Mouse position: (232, 349) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xf1 B3=0xc7 LB=0 MB=0 RB=0 XOV=0 X=-15 YOV=0 Y=-57
+Mouse position: (235, 332) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xed B3=0xbf LB=0 MB=0 RB=0 XOV=0 X=-19 YOV=0 Y=-65
+Mouse position: (231, 340) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xf9 B3=0xf1 LB=0 MB=0 RB=0 XOV=0 X=-7 YOV=0 Y=-15
+Mouse position: (243, 290) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfb B3=0xf7 LB=0 MB=0 RB=0 XOV=0 X=-5 YOV=0 Y=-9
+Mouse position: (245, 284) | New option: -1 | Previous option: 1
+B1=0x38 B2=0xfc B3=0xf9 LB=0 MB=0 RB=0 XOV=0 X=-4 YOV=0 Y=-7
+Mouse position: (246, 282) | New option: -1 | Previous option: 1
+B1=0x28 B2=0x06 B3=0xfb LB=0 MB=0 RB=0 XOV=0 X=6 YOV=0 Y=-5
+Mouse position: (256, 280) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x21 B3=0xed LB=0 MB=0 RB=0 XOV=0 X=33 YOV=0 Y=-19
+Mouse position: (283, 294) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x33 B3=0xe6 LB=0 MB=0 RB=0 XOV=0 X=51 YOV=0 Y=-26
+Mouse position: (301, 301) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x82 B3=0xd2 LB=0 MB=0 RB=0 XOV=0 X=130 YOV=0 Y=-46
+Mouse position: (380, 321) | New option: 1 | Previous option: 0
+B1=0x28 B2=0x43 B3=0xda LB=0 MB=0 RB=0 XOV=0 X=67 YOV=0 Y=-38
+Mouse position: (317, 313) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x39 B3=0xd7 LB=0 MB=0 RB=0 XOV=0 X=57 YOV=0 Y=-41
+Mouse position: (307, 316) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x79 B3=0xb7 LB=0 MB=0 RB=0 XOV=0 X=121 YOV=0 Y=-73
+Mouse position: (371, 348) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x39 B3=0xde LB=0 MB=0 RB=0 XOV=0 X=57 YOV=0 Y=-34
+Mouse position: (307, 309) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x32 B3=0xe1 LB=0 MB=0 RB=0 XOV=0 X=50 YOV=0 Y=-31
+Mouse position: (300, 306) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x60 B3=0xbd LB=0 MB=0 RB=0 XOV=0 X=96 YOV=0 Y=-67
+Mouse position: (346, 342) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x33 B3=0xd9 LB=0 MB=0 RB=0 XOV=0 X=51 YOV=0 Y=-39
+Mouse position: (301, 314) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2e B3=0xd4 LB=0 MB=0 RB=0 XOV=0 X=46 YOV=0 Y=-44
+Mouse position: (296, 319) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2e B3=0xd5 LB=0 MB=0 RB=0 XOV=0 X=46 YOV=0 Y=-43
+Mouse position: (296, 318) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x4b B3=0x94 LB=0 MB=0 RB=0 XOV=0 X=75 YOV=0 Y=-108
+Mouse position: (325, 383) | New option: 2 | Previous option: 1
+B1=0x28 B2=0x31 B3=0xd9 LB=0 MB=0 RB=0 XOV=0 X=49 YOV=0 Y=-39
+Mouse position: (299, 314) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x2e B3=0xc3 LB=0 MB=0 RB=0 XOV=0 X=46 YOV=0 Y=-61
+Mouse position: (296, 336) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x46 B3=0x9d LB=0 MB=0 RB=0 XOV=0 X=70 YOV=0 Y=-99
+Mouse position: (320, 374) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x18 B3=0xd8 LB=0 MB=0 RB=0 XOV=0 X=24 YOV=0 Y=-40
+Mouse position: (274, 315) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0e B3=0xe0 LB=0 MB=0 RB=0 XOV=0 X=14 YOV=0 Y=-32
+Mouse position: (264, 307) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x0d B3=0xe9 LB=0 MB=0 RB=0 XOV=0 X=13 YOV=0 Y=-23
+Mouse position: (263, 298) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x12 B3=0xdc LB=0 MB=0 RB=0 XOV=0 X=18 YOV=0 Y=-36
+Mouse position: (268, 311) | New option: 1 | Previous option: 1
+B1=0x28 B2=0x08 B3=0xf2 LB=0 MB=0 RB=0 XOV=0 X=8 YOV=0 Y=-14
+Mouse position: (258, 289) | New option: 0 | Previous option: 1
+B1=0x28 B2=0x09 B3=0xf4 LB=0 MB=0 RB=0 XOV=0 X=9 YOV=0 Y=-12
+Mouse position: (259, 287) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x0e B3=0xea LB=0 MB=0 RB=0 XOV=0 X=14 YOV=0 Y=-22
+Mouse position: (264, 297) | New option: 0 | Previous option: 0
+B1=0x28 B2=0x04 B3=0xfa LB=0 MB=0 RB=0 XOV=0 X=4 YOV=0 Y=-6
+Mouse position: (254, 281) | New option: 0 | Previous option: 0

@@ -1,0 +1,366 @@
+\hypertarget{vbe__graphics_8c}{}\doxysection{vbe\+\_\+graphics.\+c File Reference}
+\label{vbe__graphics_8c}\index{vbe\_graphics.c@{vbe\_graphics.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$lcom/lab5.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}vbe\+\_\+graphics.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}keyboard.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}i8042.\+h\char`\"{}}\newline
+Include dependency graph for vbe\+\_\+graphics.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$() \mbox{\hyperlink{vbe__graphics_8c_afa0e432c3ebeefc29a59abc4d22918df}{vg\+\_\+init}} (uint16\+\_\+t mode)
+\item 
+int() \mbox{\hyperlink{vbe__graphics_8c_a99d2da2559e11200c6b40c469e9977ec}{vg\+\_\+draw\+\_\+rectangle}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t width, uint16\+\_\+t height, uint32\+\_\+t color)
+\begin{DoxyCompactList}\small\item\em Draws a rectangle on the screen. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{vbe__graphics_8c_a1135e6421577648c6d1c0abc1e971663}{vg\+\_\+draw\+\_\+vline}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t len, uint32\+\_\+t color)
+\begin{DoxyCompactList}\small\item\em Draws a horizontal line on the screen. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{vbe__graphics_8c_a5e5b25bd525250f61f40b9e9f212d5e6}{vg\+\_\+draw\+\_\+hline}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t len, uint32\+\_\+t color)
+\begin{DoxyCompactList}\small\item\em Draws a vertical line on the screen. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{vbe__graphics_8c_a08c498ffeb0a3962e3b7711b57397741}{vg\+\_\+draw\+\_\+pixel}} (uint16\+\_\+t x, uint16\+\_\+t y, uint32\+\_\+t color)
+\begin{DoxyCompactList}\small\item\em Draws a pixel on the screen. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{vbe__graphics_8c_a380399764d328e4888ded6fe62053ab7}{draw\+\_\+xpm}} (xpm\+\_\+image\+\_\+t $\ast$image, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws an xpm image on the screen. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{vbe__graphics_8c_a523ae4127a08a05e5625c63ddbec8921}{erase\+\_\+xpm}} (uint16\+\_\+t x, uint16\+\_\+t y, xpm\+\_\+image\+\_\+t $\ast$img)
+\begin{DoxyCompactList}\small\item\em Erases an xpm image from the screen. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{vbe__graphics_8c_a64add1ef5a82327201886ee407f5fb1d}{get\+\_\+mem}} ()
+\begin{DoxyCompactList}\small\item\em Gets the address of the video memory. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{vbe__graphics_8c_a26aa7b04649b8a08a04c21b71aea525b}{get\+\_\+buffer}} ()
+\begin{DoxyCompactList}\small\item\em Gets the address of the buffer object. \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{vbe__graphics_8c_a0a3c7d7f5ab9ad65df3f52a43354c5f7}{get\+\_\+vram\+\_\+size}} ()
+\begin{DoxyCompactList}\small\item\em Gets the size of the video memory. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{vbe__graphics_8c_a93b29a3eb1217f2e7bf203f546a19cff}{clean\+\_\+screen}} ()
+\begin{DoxyCompactList}\small\item\em Clears the screen. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{vbe__graphics_8c_afcd8f056f1d9ad71f05b54113d51ad08}{clean\+\_\+buffer}} ()
+\begin{DoxyCompactList}\small\item\em Clears the buffer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{vbe__graphics_8c_af6c8da125917e2ba1f263daa9d3b72cc}{video\+\_\+flip}} ()
+\begin{DoxyCompactList}\small\item\em Flips the buffer to the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+vbe\+\_\+mode\+\_\+info\+\_\+t \mbox{\hyperlink{vbe__graphics_8c_a26081be7a771e5c611b33f15caaf831e}{vmi\+\_\+p}}
+\item 
+static char $\ast$ \mbox{\hyperlink{vbe__graphics_8c_a93a24e067b9083bed6fb5c0336fd7a01}{video\+\_\+mem}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{vbe__graphics_8c_a803db9334e1215ad393310779962a0ca}{mode\+\_\+aux}} = 0
+\item 
+static unsigned \mbox{\hyperlink{vbe__graphics_8c_a43e7e5a0a8f9069e6413b2066ca52f3e}{h\+\_\+res}}
+\item 
+static unsigned \mbox{\hyperlink{vbe__graphics_8c_a5bda1b499253a8fbf3cab646f8760391}{v\+\_\+res}}
+\item 
+static unsigned \mbox{\hyperlink{vbe__graphics_8c_a89fa3fb58e975d148fcb2413e24b78a1}{bits\+\_\+per\+\_\+pixel}}
+\item 
+unsigned int \mbox{\hyperlink{vbe__graphics_8c_af856b4fb3e3f77e7beed552fb48a7c3a}{vram\+\_\+base}}
+\item 
+unsigned int \mbox{\hyperlink{vbe__graphics_8c_a17b12b87c65aaa04215d9bdb7e9e84dd}{vram\+\_\+size}}
+\item 
+char $\ast$ \mbox{\hyperlink{vbe__graphics_8c_ac55df3256511f8c4c2178771377f3265}{buffer\+\_\+aux}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{vbe__graphics_8c_afcd8f056f1d9ad71f05b54113d51ad08}\label{vbe__graphics_8c_afcd8f056f1d9ad71f05b54113d51ad08}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!clean\_buffer@{clean\_buffer}}
+\index{clean\_buffer@{clean\_buffer}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{clean\_buffer()}{clean\_buffer()}}
+{\footnotesize\ttfamily void() clean\+\_\+buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the buffer. 
+
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{vbe__graphics_8c_a93b29a3eb1217f2e7bf203f546a19cff}\label{vbe__graphics_8c_a93b29a3eb1217f2e7bf203f546a19cff}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!clean\_screen@{clean\_screen}}
+\index{clean\_screen@{clean\_screen}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{clean\_screen()}{clean\_screen()}}
+{\footnotesize\ttfamily void() clean\+\_\+screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the screen. 
+
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{vbe__graphics_8c_a380399764d328e4888ded6fe62053ab7}\label{vbe__graphics_8c_a380399764d328e4888ded6fe62053ab7}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!draw\_xpm@{draw\_xpm}}
+\index{draw\_xpm@{draw\_xpm}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{draw\_xpm()}{draw\_xpm()}}
+{\footnotesize\ttfamily int() draw\+\_\+xpm (\begin{DoxyParamCaption}\item[{xpm\+\_\+image\+\_\+t $\ast$}]{image,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws an xpm image on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The xpm image to draw \\
+\hline
+{\em x} & The x coordinate of the image \\
+\hline
+{\em y} & The y coordinate of the image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{vbe__graphics_8c_a523ae4127a08a05e5625c63ddbec8921}\label{vbe__graphics_8c_a523ae4127a08a05e5625c63ddbec8921}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!erase\_xpm@{erase\_xpm}}
+\index{erase\_xpm@{erase\_xpm}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{erase\_xpm()}{erase\_xpm()}}
+{\footnotesize\ttfamily void() erase\+\_\+xpm (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{xpm\+\_\+image\+\_\+t $\ast$}]{img }\end{DoxyParamCaption})}
+
+
+
+Erases an xpm image from the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x coordinate of the image \\
+\hline
+{\em y} & The y coordinate of the image \\
+\hline
+{\em image} & The xpm image to erase \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{vbe__graphics_8c_a26aa7b04649b8a08a04c21b71aea525b}\label{vbe__graphics_8c_a26aa7b04649b8a08a04c21b71aea525b}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!get\_buffer@{get\_buffer}}
+\index{get\_buffer@{get\_buffer}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{get\_buffer()}{get\_buffer()}}
+{\footnotesize\ttfamily char $\ast$ get\+\_\+buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the address of the buffer object. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ -\/ The address of the buffer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{vbe__graphics_8c_a64add1ef5a82327201886ee407f5fb1d}\label{vbe__graphics_8c_a64add1ef5a82327201886ee407f5fb1d}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!get\_mem@{get\_mem}}
+\index{get\_mem@{get\_mem}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{get\_mem()}{get\_mem()}}
+{\footnotesize\ttfamily char $\ast$ get\+\_\+mem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the address of the video memory. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ -\/ The address of the video memory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{vbe__graphics_8c_a0a3c7d7f5ab9ad65df3f52a43354c5f7}\label{vbe__graphics_8c_a0a3c7d7f5ab9ad65df3f52a43354c5f7}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!get\_vram\_size@{get\_vram\_size}}
+\index{get\_vram\_size@{get\_vram\_size}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{get\_vram\_size()}{get\_vram\_size()}}
+{\footnotesize\ttfamily unsigned get\+\_\+vram\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the size of the video memory. 
+
+\begin{DoxyReturn}{Returns}
+The size of the video memory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{vbe__graphics_8c_a5e5b25bd525250f61f40b9e9f212d5e6}\label{vbe__graphics_8c_a5e5b25bd525250f61f40b9e9f212d5e6}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vg\_draw\_hline@{vg\_draw\_hline}}
+\index{vg\_draw\_hline@{vg\_draw\_hline}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_hline()}{vg\_draw\_hline()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+hline (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{len,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+
+
+Draws a vertical line on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x coordinate of the line \\
+\hline
+{\em y} & The y coordinate of the line \\
+\hline
+{\em len} & The lenght of the line \\
+\hline
+{\em color} & The color of the lines\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{vbe__graphics_8c_a08c498ffeb0a3962e3b7711b57397741}\label{vbe__graphics_8c_a08c498ffeb0a3962e3b7711b57397741}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vg\_draw\_pixel@{vg\_draw\_pixel}}
+\index{vg\_draw\_pixel@{vg\_draw\_pixel}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_pixel()}{vg\_draw\_pixel()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+pixel (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+
+
+Draws a pixel on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x coordinate of the pixel \\
+\hline
+{\em y} & The y coordinate of the pixel \\
+\hline
+{\em color} & The color of the pixel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{vbe__graphics_8c_a99d2da2559e11200c6b40c469e9977ec}\label{vbe__graphics_8c_a99d2da2559e11200c6b40c469e9977ec}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vg\_draw\_rectangle@{vg\_draw\_rectangle}}
+\index{vg\_draw\_rectangle@{vg\_draw\_rectangle}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_rectangle()}{vg\_draw\_rectangle()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+rectangle (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{width,  }\item[{uint16\+\_\+t}]{height,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+
+
+Draws a rectangle on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x coordinate of the rectangle \\
+\hline
+{\em y} & The y coordinate of the rectangle \\
+\hline
+{\em width} & The width of the rectangle \\
+\hline
+{\em height} & The height of the rectangle \\
+\hline
+{\em color} & The color of the rectangle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 10
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{vbe__graphics_8c_a1135e6421577648c6d1c0abc1e971663}\label{vbe__graphics_8c_a1135e6421577648c6d1c0abc1e971663}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vg\_draw\_vline@{vg\_draw\_vline}}
+\index{vg\_draw\_vline@{vg\_draw\_vline}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_vline()}{vg\_draw\_vline()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+vline (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{len,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+
+
+Draws a horizontal line on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x coordinate of the line \\
+\hline
+{\em y} & The y coordinate of the line \\
+\hline
+{\em len} & The lenght of the line \\
+\hline
+{\em color} & The color of the line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 12
+Here is the caller graph for this function\+:
+% FIG 13
+\mbox{\Hypertarget{vbe__graphics_8c_afa0e432c3ebeefc29a59abc4d22918df}\label{vbe__graphics_8c_afa0e432c3ebeefc29a59abc4d22918df}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vg\_init@{vg\_init}}
+\index{vg\_init@{vg\_init}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vg\_init()}{vg\_init()}}
+{\footnotesize\ttfamily void $\ast$() vg\+\_\+init (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 14
+\mbox{\Hypertarget{vbe__graphics_8c_af6c8da125917e2ba1f263daa9d3b72cc}\label{vbe__graphics_8c_af6c8da125917e2ba1f263daa9d3b72cc}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!video\_flip@{video\_flip}}
+\index{video\_flip@{video\_flip}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{video\_flip()}{video\_flip()}}
+{\footnotesize\ttfamily void video\+\_\+flip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Flips the buffer to the screen. 
+
+Here is the caller graph for this function\+:
+% FIG 15
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{vbe__graphics_8c_a89fa3fb58e975d148fcb2413e24b78a1}\label{vbe__graphics_8c_a89fa3fb58e975d148fcb2413e24b78a1}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!bits\_per\_pixel@{bits\_per\_pixel}}
+\index{bits\_per\_pixel@{bits\_per\_pixel}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{bits\_per\_pixel}{bits\_per\_pixel}}
+{\footnotesize\ttfamily unsigned bits\+\_\+per\+\_\+pixel\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{vbe__graphics_8c_ac55df3256511f8c4c2178771377f3265}\label{vbe__graphics_8c_ac55df3256511f8c4c2178771377f3265}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!buffer\_aux@{buffer\_aux}}
+\index{buffer\_aux@{buffer\_aux}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{buffer\_aux}{buffer\_aux}}
+{\footnotesize\ttfamily char$\ast$ buffer\+\_\+aux}
+
+\mbox{\Hypertarget{vbe__graphics_8c_a43e7e5a0a8f9069e6413b2066ca52f3e}\label{vbe__graphics_8c_a43e7e5a0a8f9069e6413b2066ca52f3e}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!h\_res@{h\_res}}
+\index{h\_res@{h\_res}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{h\_res}{h\_res}}
+{\footnotesize\ttfamily unsigned h\+\_\+res\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{vbe__graphics_8c_a803db9334e1215ad393310779962a0ca}\label{vbe__graphics_8c_a803db9334e1215ad393310779962a0ca}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!mode\_aux@{mode\_aux}}
+\index{mode\_aux@{mode\_aux}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{mode\_aux}{mode\_aux}}
+{\footnotesize\ttfamily uint16\+\_\+t mode\+\_\+aux = 0}
+
+\mbox{\Hypertarget{vbe__graphics_8c_a5bda1b499253a8fbf3cab646f8760391}\label{vbe__graphics_8c_a5bda1b499253a8fbf3cab646f8760391}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!v\_res@{v\_res}}
+\index{v\_res@{v\_res}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{v\_res}{v\_res}}
+{\footnotesize\ttfamily unsigned v\+\_\+res\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{vbe__graphics_8c_a93a24e067b9083bed6fb5c0336fd7a01}\label{vbe__graphics_8c_a93a24e067b9083bed6fb5c0336fd7a01}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!video\_mem@{video\_mem}}
+\index{video\_mem@{video\_mem}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{video\_mem}{video\_mem}}
+{\footnotesize\ttfamily char$\ast$ video\+\_\+mem\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{vbe__graphics_8c_a26081be7a771e5c611b33f15caaf831e}\label{vbe__graphics_8c_a26081be7a771e5c611b33f15caaf831e}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vmi\_p@{vmi\_p}}
+\index{vmi\_p@{vmi\_p}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vmi\_p}{vmi\_p}}
+{\footnotesize\ttfamily vbe\+\_\+mode\+\_\+info\+\_\+t vmi\+\_\+p}
+
+\mbox{\Hypertarget{vbe__graphics_8c_af856b4fb3e3f77e7beed552fb48a7c3a}\label{vbe__graphics_8c_af856b4fb3e3f77e7beed552fb48a7c3a}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vram\_base@{vram\_base}}
+\index{vram\_base@{vram\_base}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vram\_base}{vram\_base}}
+{\footnotesize\ttfamily unsigned int vram\+\_\+base}
+
+\mbox{\Hypertarget{vbe__graphics_8c_a17b12b87c65aaa04215d9bdb7e9e84dd}\label{vbe__graphics_8c_a17b12b87c65aaa04215d9bdb7e9e84dd}} 
+\index{vbe\_graphics.c@{vbe\_graphics.c}!vram\_size@{vram\_size}}
+\index{vram\_size@{vram\_size}!vbe\_graphics.c@{vbe\_graphics.c}}
+\doxysubsubsection{\texorpdfstring{vram\_size}{vram\_size}}
+{\footnotesize\ttfamily unsigned int vram\+\_\+size}
+

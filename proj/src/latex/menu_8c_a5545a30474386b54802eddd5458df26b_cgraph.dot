@@ -1,0 +1,15 @@
+digraph "navigate_menu"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="navigate_menu",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This function navigates the menu screen based on the user input."];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="clear_menu",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$menu_8c.html#ac236c3db0ae243876d31c6d59444e1cd",tooltip="This function clears the XPM images for the menu screen."];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="erase_xpm",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$vbe__graphics_8c.html#a523ae4127a08a05e5625c63ddbec8921",tooltip="Erases an xpm image from the screen."];
+  Node3 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="vg_draw_pixel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$vbe__graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741",tooltip="Draws a pixel on the screen."];
+}

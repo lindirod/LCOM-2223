@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['sbreak_0',['SBREAK',['../game_8c.html#a5b832c74ca8bf6ffabf7d4190eded9f9',1,'game.c']]],
+  ['scancode_1',['scancode',['../game_8c.html#aa1de7a5557e9d96b83cf03f73c92163f',1,'scancode():&#160;keyboard.c'],['../keyboard_8c.html#aa1de7a5557e9d96b83cf03f73c92163f',1,'scancode():&#160;keyboard.c'],['../proj_8c.html#aa1de7a5557e9d96b83cf03f73c92163f',1,'scancode():&#160;keyboard.c']]],
+  ['score_2',['score',['../game_8c.html#aef160b7437d94056f1dc59646cd5b87d',1,'game.c']]],
+  ['score_5finitial_5fx_3',['score_initial_x',['../game_8c.html#a58f298671e9acf88cc82dff98b98cdc5',1,'game.c']]],
+  ['score_5finitial_5fy_4',['score_initial_y',['../game_8c.html#a9de2f009068a06065a3f6b9f98535c6a',1,'game.c']]],
+  ['score_5fxpm_5',['score_xpm',['../game_8c.html#a6e09938899ca54b1d3d739e539161f27',1,'game.c']]],
+  ['set_5fremote_5fmode_6',['SET_REMOTE_MODE',['../group__i8042.html#ga19a57d9d2eafd32ee130c0f526906719',1,'i8042.h']]],
+  ['set_5fstream_5fmode_7',['SET_STREAM_MODE',['../group__i8042.html#gaabf49b4a4d8ad72d202c8a7197058e35',1,'i8042.h']]],
+  ['seven_8',['seven',['../game__timer_8c.html#ad3af128b4628c91b43a3f5d1f014e543',1,'game_timer.c']]],
+  ['seven_5fdraw_9',['seven_draw',['../game__timer_8c.html#ab12663ba6d2a32af4e31738c471df849',1,'game_timer.c']]],
+  ['shape_10',['shape',['../board_8h.html#a45cde9abb508c62d67c3bb2b9bf566a5',1,'board.h']]],
+  ['six_11',['six',['../game__timer_8c.html#a1fe7784c6cf5cff30b00f030f4f62298',1,'game_timer.c']]],
+  ['six_5fdraw_12',['six_draw',['../game__timer_8c.html#ae6b839ebaa0a59ecbc773deed87ac322',1,'game_timer.c']]],
+  ['size_13',['SIZE',['../board_8h.html#a70ed59adcb4159ac551058053e649640',1,'board.h']]],
+  ['speaker_5fctrl_14',['SPEAKER_CTRL',['../group__i8254.html#ga51b3a5e3d4811ca063fe25e35560ab40',1,'i8254.h']]],
+  ['stat_15',['stat',['../proj_8c.html#a3e0101ab4f197aedba71e5ed14c6bf20',1,'proj.c']]],
+  ['sync_5fmouse_5fbytes_16',['sync_mouse_bytes',['../mouse_8c.html#a4f0280307b4c1f44f618e7df06936d2c',1,'sync_mouse_bytes():&#160;mouse.c'],['../mouse_8h.html#a4f0280307b4c1f44f618e7df06936d2c',1,'sync_mouse_bytes():&#160;mouse.c']]]
+];

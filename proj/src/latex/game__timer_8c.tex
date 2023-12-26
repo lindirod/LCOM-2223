@@ -1,0 +1,250 @@
+\hypertarget{game__timer_8c}{}\doxysection{game\+\_\+timer.\+c File Reference}
+\label{game__timer_8c}\index{game\_timer.c@{game\_timer.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$lcom/proj.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}menu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vbe\+\_\+graphics.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/zero.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/one.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/two.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/three.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/four.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/five.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/six.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/seven.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/eight.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/nine.\+xpm\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpm/numbers/colon.\+xpm\char`\"{}}\newline
+Include dependency graph for game\+\_\+timer.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void() \mbox{\hyperlink{game__timer_8c_a93615f9c3349716694bc6cdf80615f72}{timer\+\_\+files\+\_\+init}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the timer image xpm files. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{game__timer_8c_a9a5bd635a15d46f26cf4b60ebbedac3a}{game\+\_\+counter}} ()
+\begin{DoxyCompactList}\small\item\em Draws the game timer on the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{game__timer_8c_a9fd967ce9d51a49c7cab2363583e12b3}{game\+\_\+timer}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a4c69ee4e7b67e855249cf3b9f66d99ae}{zero}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a9b034c363d055f9df18d1a10c42e501b}{one}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_ab6803d44b5db00e0928a077628b4ff0b}{two}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_abf155d9777dcf10bfea3592038320f53}{three}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a28e995dbdaf728c9dc83baa953098ecc}{four}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a2ff9c0f7beb921fefa53034601e47d9a}{five}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a1fe7784c6cf5cff30b00f030f4f62298}{six}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_ad3af128b4628c91b43a3f5d1f014e543}{seven}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a1be71edbf01ce2da7f41e00c8b073c2b}{eight}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_a79e1139e3876bd7633e5e5cc5fa3b0b2}{nine}}
+\item 
+xpm\+\_\+image\+\_\+t \mbox{\hyperlink{game__timer_8c_abe1dc2535f74dd2b881998ae97bad22b}{colon}}
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a7780a18a39b9a239a6209447a7f11112}{zero\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a368d5406b2472311f1c47ff266f61af3}{one\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a775add35cc89b5e0595781648f271979}{two\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a4076ddf4f243f6e56c11dd073bf01873}{three\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_aebab10c228c175767f0ef76a560b6bbf}{four\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_ad4b979b26b162a63ea567c160e46bead}{five\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_ae6b839ebaa0a59ecbc773deed87ac322}{six\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_ab12663ba6d2a32af4e31738c471df849}{seven\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a0a30fa524c347a75d0dd0a73f072ab82}{eight\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a7b04acb71fbb28cb1abd132e85230f39}{nine\+\_\+draw}} = NULL
+\item 
+xpm\+\_\+image\+\_\+t $\ast$ \mbox{\hyperlink{game__timer_8c_a5bff29015c38de1b556cedd4c6cee618}{colon\+\_\+draw}} = NULL
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{game__timer_8c_a9a5bd635a15d46f26cf4b60ebbedac3a}\label{game__timer_8c_a9a5bd635a15d46f26cf4b60ebbedac3a}} 
+\index{game\_timer.c@{game\_timer.c}!game\_counter@{game\_counter}}
+\index{game\_counter@{game\_counter}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{game\_counter()}{game\_counter()}}
+{\footnotesize\ttfamily int game\+\_\+counter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the game timer on the screen. 
+
+\begin{DoxyReturn}{Returns}
+0 on success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{game__timer_8c_a93615f9c3349716694bc6cdf80615f72}\label{game__timer_8c_a93615f9c3349716694bc6cdf80615f72}} 
+\index{game\_timer.c@{game\_timer.c}!timer\_files\_init@{timer\_files\_init}}
+\index{timer\_files\_init@{timer\_files\_init}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{timer\_files\_init()}{timer\_files\_init()}}
+{\footnotesize\ttfamily void() timer\+\_\+files\+\_\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the timer image xpm files. 
+
+Here is the caller graph for this function\+:
+% FIG 3
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{game__timer_8c_abe1dc2535f74dd2b881998ae97bad22b}\label{game__timer_8c_abe1dc2535f74dd2b881998ae97bad22b}} 
+\index{game\_timer.c@{game\_timer.c}!colon@{colon}}
+\index{colon@{colon}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{colon}{colon}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t colon}
+
+\mbox{\Hypertarget{game__timer_8c_a5bff29015c38de1b556cedd4c6cee618}\label{game__timer_8c_a5bff29015c38de1b556cedd4c6cee618}} 
+\index{game\_timer.c@{game\_timer.c}!colon\_draw@{colon\_draw}}
+\index{colon\_draw@{colon\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{colon\_draw}{colon\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ colon\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a1be71edbf01ce2da7f41e00c8b073c2b}\label{game__timer_8c_a1be71edbf01ce2da7f41e00c8b073c2b}} 
+\index{game\_timer.c@{game\_timer.c}!eight@{eight}}
+\index{eight@{eight}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{eight}{eight}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t eight}
+
+\mbox{\Hypertarget{game__timer_8c_a0a30fa524c347a75d0dd0a73f072ab82}\label{game__timer_8c_a0a30fa524c347a75d0dd0a73f072ab82}} 
+\index{game\_timer.c@{game\_timer.c}!eight\_draw@{eight\_draw}}
+\index{eight\_draw@{eight\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{eight\_draw}{eight\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ eight\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a2ff9c0f7beb921fefa53034601e47d9a}\label{game__timer_8c_a2ff9c0f7beb921fefa53034601e47d9a}} 
+\index{game\_timer.c@{game\_timer.c}!five@{five}}
+\index{five@{five}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{five}{five}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t five}
+
+\mbox{\Hypertarget{game__timer_8c_ad4b979b26b162a63ea567c160e46bead}\label{game__timer_8c_ad4b979b26b162a63ea567c160e46bead}} 
+\index{game\_timer.c@{game\_timer.c}!five\_draw@{five\_draw}}
+\index{five\_draw@{five\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{five\_draw}{five\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ five\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a28e995dbdaf728c9dc83baa953098ecc}\label{game__timer_8c_a28e995dbdaf728c9dc83baa953098ecc}} 
+\index{game\_timer.c@{game\_timer.c}!four@{four}}
+\index{four@{four}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{four}{four}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t four}
+
+\mbox{\Hypertarget{game__timer_8c_aebab10c228c175767f0ef76a560b6bbf}\label{game__timer_8c_aebab10c228c175767f0ef76a560b6bbf}} 
+\index{game\_timer.c@{game\_timer.c}!four\_draw@{four\_draw}}
+\index{four\_draw@{four\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{four\_draw}{four\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ four\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a9fd967ce9d51a49c7cab2363583e12b3}\label{game__timer_8c_a9fd967ce9d51a49c7cab2363583e12b3}} 
+\index{game\_timer.c@{game\_timer.c}!game\_timer@{game\_timer}}
+\index{game\_timer@{game\_timer}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{game\_timer}{game\_timer}}
+{\footnotesize\ttfamily int game\+\_\+timer}
+
+\mbox{\Hypertarget{game__timer_8c_a79e1139e3876bd7633e5e5cc5fa3b0b2}\label{game__timer_8c_a79e1139e3876bd7633e5e5cc5fa3b0b2}} 
+\index{game\_timer.c@{game\_timer.c}!nine@{nine}}
+\index{nine@{nine}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{nine}{nine}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t nine}
+
+\mbox{\Hypertarget{game__timer_8c_a7b04acb71fbb28cb1abd132e85230f39}\label{game__timer_8c_a7b04acb71fbb28cb1abd132e85230f39}} 
+\index{game\_timer.c@{game\_timer.c}!nine\_draw@{nine\_draw}}
+\index{nine\_draw@{nine\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{nine\_draw}{nine\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ nine\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a9b034c363d055f9df18d1a10c42e501b}\label{game__timer_8c_a9b034c363d055f9df18d1a10c42e501b}} 
+\index{game\_timer.c@{game\_timer.c}!one@{one}}
+\index{one@{one}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{one}{one}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t one}
+
+\mbox{\Hypertarget{game__timer_8c_a368d5406b2472311f1c47ff266f61af3}\label{game__timer_8c_a368d5406b2472311f1c47ff266f61af3}} 
+\index{game\_timer.c@{game\_timer.c}!one\_draw@{one\_draw}}
+\index{one\_draw@{one\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{one\_draw}{one\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ one\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_ad3af128b4628c91b43a3f5d1f014e543}\label{game__timer_8c_ad3af128b4628c91b43a3f5d1f014e543}} 
+\index{game\_timer.c@{game\_timer.c}!seven@{seven}}
+\index{seven@{seven}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{seven}{seven}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t seven}
+
+\mbox{\Hypertarget{game__timer_8c_ab12663ba6d2a32af4e31738c471df849}\label{game__timer_8c_ab12663ba6d2a32af4e31738c471df849}} 
+\index{game\_timer.c@{game\_timer.c}!seven\_draw@{seven\_draw}}
+\index{seven\_draw@{seven\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{seven\_draw}{seven\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ seven\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a1fe7784c6cf5cff30b00f030f4f62298}\label{game__timer_8c_a1fe7784c6cf5cff30b00f030f4f62298}} 
+\index{game\_timer.c@{game\_timer.c}!six@{six}}
+\index{six@{six}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{six}{six}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t six}
+
+\mbox{\Hypertarget{game__timer_8c_ae6b839ebaa0a59ecbc773deed87ac322}\label{game__timer_8c_ae6b839ebaa0a59ecbc773deed87ac322}} 
+\index{game\_timer.c@{game\_timer.c}!six\_draw@{six\_draw}}
+\index{six\_draw@{six\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{six\_draw}{six\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ six\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_abf155d9777dcf10bfea3592038320f53}\label{game__timer_8c_abf155d9777dcf10bfea3592038320f53}} 
+\index{game\_timer.c@{game\_timer.c}!three@{three}}
+\index{three@{three}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{three}{three}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t three}
+
+\mbox{\Hypertarget{game__timer_8c_a4076ddf4f243f6e56c11dd073bf01873}\label{game__timer_8c_a4076ddf4f243f6e56c11dd073bf01873}} 
+\index{game\_timer.c@{game\_timer.c}!three\_draw@{three\_draw}}
+\index{three\_draw@{three\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{three\_draw}{three\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ three\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_ab6803d44b5db00e0928a077628b4ff0b}\label{game__timer_8c_ab6803d44b5db00e0928a077628b4ff0b}} 
+\index{game\_timer.c@{game\_timer.c}!two@{two}}
+\index{two@{two}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{two}{two}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t two}
+
+\mbox{\Hypertarget{game__timer_8c_a775add35cc89b5e0595781648f271979}\label{game__timer_8c_a775add35cc89b5e0595781648f271979}} 
+\index{game\_timer.c@{game\_timer.c}!two\_draw@{two\_draw}}
+\index{two\_draw@{two\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{two\_draw}{two\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ two\+\_\+draw = NULL}
+
+\mbox{\Hypertarget{game__timer_8c_a4c69ee4e7b67e855249cf3b9f66d99ae}\label{game__timer_8c_a4c69ee4e7b67e855249cf3b9f66d99ae}} 
+\index{game\_timer.c@{game\_timer.c}!zero@{zero}}
+\index{zero@{zero}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{zero}{zero}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t zero}
+
+\mbox{\Hypertarget{game__timer_8c_a7780a18a39b9a239a6209447a7f11112}\label{game__timer_8c_a7780a18a39b9a239a6209447a7f11112}} 
+\index{game\_timer.c@{game\_timer.c}!zero\_draw@{zero\_draw}}
+\index{zero\_draw@{zero\_draw}!game\_timer.c@{game\_timer.c}}
+\doxysubsubsection{\texorpdfstring{zero\_draw}{zero\_draw}}
+{\footnotesize\ttfamily xpm\+\_\+image\+\_\+t$\ast$ zero\+\_\+draw = NULL}
+

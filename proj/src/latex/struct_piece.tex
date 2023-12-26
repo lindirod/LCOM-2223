@@ -1,0 +1,84 @@
+\hypertarget{struct_piece}{}\doxysection{Piece Struct Reference}
+\label{struct_piece}\index{Piece@{Piece}}
+
+
+Structure that represents a game piece.  
+
+
+
+
+{\ttfamily \#include $<$board.\+h$>$}
+
+
+
+Collaboration diagram for Piece\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_piece_adee0055aff505c77add0f352e847c8c3}{board\+\_\+index}} \mbox{[}4\mbox{]}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{struct_piece_ac0a9ffb9cbcf6e4d591f76fcea5fa8dc}{color}}
+\item 
+int \mbox{\hyperlink{struct_piece_a4de16272a20884910c2c7361bf971e63}{rot}}
+\item 
+\mbox{\hyperlink{struct_board}{Board}} $\ast$ \mbox{\hyperlink{struct_piece_aa23f2a4f757b9164687cbc197c0022fd}{board}}
+\item 
+enum \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}{shape}} \mbox{\hyperlink{struct_piece_aa512916246625f3cef9c8fee86ee4c5b}{piece\+\_\+shape}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Structure that represents a game piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board\+\_\+index} & Array of 4 indices referencing cells in the board array. \\
+\hline
+{\em color} & \mbox{\hyperlink{struct_piece}{Piece}} color. \\
+\hline
+{\em rot} & \mbox{\hyperlink{struct_piece}{Piece}} rotation value. \\
+\hline
+{\em board} & Reference to the board the piece belongs to. \\
+\hline
+{\em piece\+\_\+shape} & Shape of the piece. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_piece_aa23f2a4f757b9164687cbc197c0022fd}\label{struct_piece_aa23f2a4f757b9164687cbc197c0022fd}} 
+\index{Piece@{Piece}!board@{board}}
+\index{board@{board}!Piece@{Piece}}
+\doxysubsubsection{\texorpdfstring{board}{board}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_board}{Board}}$\ast$ Piece\+::board}
+
+\mbox{\Hypertarget{struct_piece_adee0055aff505c77add0f352e847c8c3}\label{struct_piece_adee0055aff505c77add0f352e847c8c3}} 
+\index{Piece@{Piece}!board\_index@{board\_index}}
+\index{board\_index@{board\_index}!Piece@{Piece}}
+\doxysubsubsection{\texorpdfstring{board\_index}{board\_index}}
+{\footnotesize\ttfamily uint16\+\_\+t Piece\+::board\+\_\+index\mbox{[}4\mbox{]}}
+
+\mbox{\Hypertarget{struct_piece_ac0a9ffb9cbcf6e4d591f76fcea5fa8dc}\label{struct_piece_ac0a9ffb9cbcf6e4d591f76fcea5fa8dc}} 
+\index{Piece@{Piece}!color@{color}}
+\index{color@{color}!Piece@{Piece}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily uint32\+\_\+t Piece\+::color}
+
+\mbox{\Hypertarget{struct_piece_aa512916246625f3cef9c8fee86ee4c5b}\label{struct_piece_aa512916246625f3cef9c8fee86ee4c5b}} 
+\index{Piece@{Piece}!piece\_shape@{piece\_shape}}
+\index{piece\_shape@{piece\_shape}!Piece@{Piece}}
+\doxysubsubsection{\texorpdfstring{piece\_shape}{piece\_shape}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}{shape}} Piece\+::piece\+\_\+shape}
+
+\mbox{\Hypertarget{struct_piece_a4de16272a20884910c2c7361bf971e63}\label{struct_piece_a4de16272a20884910c2c7361bf971e63}} 
+\index{Piece@{Piece}!rot@{rot}}
+\index{rot@{rot}!Piece@{Piece}}
+\doxysubsubsection{\texorpdfstring{rot}{rot}}
+{\footnotesize\ttfamily int Piece\+::rot}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{board_8h}{board.\+h}}\end{DoxyCompactItemize}

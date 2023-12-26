@@ -1,0 +1,198 @@
+\hypertarget{mouse_8h}{}\doxysection{mouse.\+h File Reference}
+\label{mouse_8h}\index{mouse.h@{mouse.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Include dependency graph for mouse.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{mouse_8h_a20285aed4b3ef45812cd967532dd09db}{mouse\+\_\+subscribe\+\_\+int}} (uint8\+\_\+t $\ast$bit\+\_\+no)
+\begin{DoxyCompactList}\small\item\em Subscribes to the mouse interrupts. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{mouse_8h_a3ecf823d80520009ae5e0d76ae40a3c3}{mouse\+\_\+unsubscribe\+\_\+int}} ()
+\begin{DoxyCompactList}\small\item\em Unsubscribes to the mouse interrupts. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{mouse_8h_a4f0280307b4c1f44f618e7df06936d2c}{sync\+\_\+mouse\+\_\+bytes}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the packet of bytes received from the mouse. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{mouse_8h_a210374b50462acdedab00df64d5cea3c}{mouse\+\_\+ih}} ()
+\begin{DoxyCompactList}\small\item\em The interrupt handler for mouse interrupts. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{mouse_8h_a4d243ee9e6e25fd22d0d7e53e2dd2f90}{read\+\_\+kbc\+\_\+output}} (uint8\+\_\+t port, uint8\+\_\+t $\ast$output, uint8\+\_\+t mouse)
+\begin{DoxyCompactList}\small\item\em Reads the output from the keyboard controller. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{mouse_8h_a56ce3da7a1cebb928912020a9e554828}{read\+\_\+kbc\+\_\+status}} (uint8\+\_\+t $\ast$status)
+\begin{DoxyCompactList}\small\item\em Reads the status of the keyboard controller. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{mouse_8h_acd2de5dc5731158db5229777028cb855}{write\+\_\+kbc\+\_\+command}} (uint8\+\_\+t port, uint8\+\_\+t command\+\_\+byte)
+\begin{DoxyCompactList}\small\item\em Writes a command to the keyboard controller. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{mouse_8h_a0cee9b230b812d6261cfe0c72be343a8}{write\+\_\+to\+\_\+mouse}} (uint8\+\_\+t command)
+\begin{DoxyCompactList}\small\item\em Writes a command to the mouse. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{mouse_8h_a70cace58d99c73d35b0bb8202e29d620}{build\+\_\+mouse\+\_\+packet}} ()
+\begin{DoxyCompactList}\small\item\em Builds a packet from the bytes received from the mouse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mouse_8h_a70cace58d99c73d35b0bb8202e29d620}\label{mouse_8h_a70cace58d99c73d35b0bb8202e29d620}} 
+\index{mouse.h@{mouse.h}!build\_mouse\_packet@{build\_mouse\_packet}}
+\index{build\_mouse\_packet@{build\_mouse\_packet}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{build\_mouse\_packet()}{build\_mouse\_packet()}}
+{\footnotesize\ttfamily void() build\+\_\+mouse\+\_\+packet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Builds a packet from the bytes received from the mouse. 
+
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{mouse_8h_a210374b50462acdedab00df64d5cea3c}\label{mouse_8h_a210374b50462acdedab00df64d5cea3c}} 
+\index{mouse.h@{mouse.h}!mouse\_ih@{mouse\_ih}}
+\index{mouse\_ih@{mouse\_ih}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{mouse\_ih()}{mouse\_ih()}}
+{\footnotesize\ttfamily void() mouse\+\_\+ih (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The interrupt handler for mouse interrupts. 
+
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{mouse_8h_a20285aed4b3ef45812cd967532dd09db}\label{mouse_8h_a20285aed4b3ef45812cd967532dd09db}} 
+\index{mouse.h@{mouse.h}!mouse\_subscribe\_int@{mouse\_subscribe\_int}}
+\index{mouse\_subscribe\_int@{mouse\_subscribe\_int}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{mouse\_subscribe\_int()}{mouse\_subscribe\_int()}}
+{\footnotesize\ttfamily int() mouse\+\_\+subscribe\+\_\+int (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{bit\+\_\+no }\end{DoxyParamCaption})}
+
+
+
+Subscribes to the mouse interrupts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bit\+\_\+no} & The pointer to the mouse\textquotesingle{}s bit number to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Returns 0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{mouse_8h_a3ecf823d80520009ae5e0d76ae40a3c3}\label{mouse_8h_a3ecf823d80520009ae5e0d76ae40a3c3}} 
+\index{mouse.h@{mouse.h}!mouse\_unsubscribe\_int@{mouse\_unsubscribe\_int}}
+\index{mouse\_unsubscribe\_int@{mouse\_unsubscribe\_int}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{mouse\_unsubscribe\_int()}{mouse\_unsubscribe\_int()}}
+{\footnotesize\ttfamily int() mouse\+\_\+unsubscribe\+\_\+int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Unsubscribes to the mouse interrupts. 
+
+\begin{DoxyReturn}{Returns}
+int Returns 0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{mouse_8h_a4d243ee9e6e25fd22d0d7e53e2dd2f90}\label{mouse_8h_a4d243ee9e6e25fd22d0d7e53e2dd2f90}} 
+\index{mouse.h@{mouse.h}!read\_kbc\_output@{read\_kbc\_output}}
+\index{read\_kbc\_output@{read\_kbc\_output}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{read\_kbc\_output()}{read\_kbc\_output()}}
+{\footnotesize\ttfamily int() read\+\_\+kbc\+\_\+output (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port,  }\item[{uint8\+\_\+t $\ast$}]{output,  }\item[{uint8\+\_\+t}]{mouse }\end{DoxyParamCaption})}
+
+
+
+Reads the output from the keyboard controller. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & The port to read from \\
+\hline
+{\em output} & The pointer to the variable where the output should be stored \\
+\hline
+{\em mouse} & A flag indicating whether the device is a mouse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{mouse_8h_a56ce3da7a1cebb928912020a9e554828}\label{mouse_8h_a56ce3da7a1cebb928912020a9e554828}} 
+\index{mouse.h@{mouse.h}!read\_kbc\_status@{read\_kbc\_status}}
+\index{read\_kbc\_status@{read\_kbc\_status}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{read\_kbc\_status()}{read\_kbc\_status()}}
+{\footnotesize\ttfamily int() read\+\_\+kbc\+\_\+status (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{status }\end{DoxyParamCaption})}
+
+
+
+Reads the status of the keyboard controller. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & The pointer to the variable where the status should be stored \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 9
+Here is the caller graph for this function\+:
+% FIG 10
+\mbox{\Hypertarget{mouse_8h_a4f0280307b4c1f44f618e7df06936d2c}\label{mouse_8h_a4f0280307b4c1f44f618e7df06936d2c}} 
+\index{mouse.h@{mouse.h}!sync\_mouse\_bytes@{sync\_mouse\_bytes}}
+\index{sync\_mouse\_bytes@{sync\_mouse\_bytes}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{sync\_mouse\_bytes()}{sync\_mouse\_bytes()}}
+{\footnotesize\ttfamily void() sync\+\_\+mouse\+\_\+bytes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the packet of bytes received from the mouse. 
+
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{mouse_8h_acd2de5dc5731158db5229777028cb855}\label{mouse_8h_acd2de5dc5731158db5229777028cb855}} 
+\index{mouse.h@{mouse.h}!write\_kbc\_command@{write\_kbc\_command}}
+\index{write\_kbc\_command@{write\_kbc\_command}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{write\_kbc\_command()}{write\_kbc\_command()}}
+{\footnotesize\ttfamily int() write\+\_\+kbc\+\_\+command (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port,  }\item[{uint8\+\_\+t}]{command\+\_\+byte }\end{DoxyParamCaption})}
+
+
+
+Writes a command to the keyboard controller. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & The port to write to \\
+\hline
+{\em command\+\_\+byte} & The command to be written \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 12
+Here is the caller graph for this function\+:
+% FIG 13
+\mbox{\Hypertarget{mouse_8h_a0cee9b230b812d6261cfe0c72be343a8}\label{mouse_8h_a0cee9b230b812d6261cfe0c72be343a8}} 
+\index{mouse.h@{mouse.h}!write\_to\_mouse@{write\_to\_mouse}}
+\index{write\_to\_mouse@{write\_to\_mouse}!mouse.h@{mouse.h}}
+\doxysubsubsection{\texorpdfstring{write\_to\_mouse()}{write\_to\_mouse()}}
+{\footnotesize\ttfamily int() write\+\_\+to\+\_\+mouse (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{command }\end{DoxyParamCaption})}
+
+
+
+Writes a command to the mouse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & The command to be written \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 upon success, non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 14
+Here is the caller graph for this function\+:
+% FIG 15

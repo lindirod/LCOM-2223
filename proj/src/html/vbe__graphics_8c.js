@@ -1,0 +1,25 @@
+var vbe__graphics_8c =
+[
+    [ "clean_buffer", "vbe__graphics_8c.html#afcd8f056f1d9ad71f05b54113d51ad08", null ],
+    [ "clean_screen", "vbe__graphics_8c.html#a93b29a3eb1217f2e7bf203f546a19cff", null ],
+    [ "draw_xpm", "vbe__graphics_8c.html#a380399764d328e4888ded6fe62053ab7", null ],
+    [ "erase_xpm", "vbe__graphics_8c.html#a523ae4127a08a05e5625c63ddbec8921", null ],
+    [ "get_buffer", "vbe__graphics_8c.html#a26aa7b04649b8a08a04c21b71aea525b", null ],
+    [ "get_mem", "vbe__graphics_8c.html#a64add1ef5a82327201886ee407f5fb1d", null ],
+    [ "get_vram_size", "vbe__graphics_8c.html#a0a3c7d7f5ab9ad65df3f52a43354c5f7", null ],
+    [ "vg_draw_hline", "vbe__graphics_8c.html#a5e5b25bd525250f61f40b9e9f212d5e6", null ],
+    [ "vg_draw_pixel", "vbe__graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741", null ],
+    [ "vg_draw_rectangle", "vbe__graphics_8c.html#a99d2da2559e11200c6b40c469e9977ec", null ],
+    [ "vg_draw_vline", "vbe__graphics_8c.html#a1135e6421577648c6d1c0abc1e971663", null ],
+    [ "vg_init", "vbe__graphics_8c.html#afa0e432c3ebeefc29a59abc4d22918df", null ],
+    [ "video_flip", "vbe__graphics_8c.html#af6c8da125917e2ba1f263daa9d3b72cc", null ],
+    [ "bits_per_pixel", "vbe__graphics_8c.html#a89fa3fb58e975d148fcb2413e24b78a1", null ],
+    [ "buffer_aux", "vbe__graphics_8c.html#ac55df3256511f8c4c2178771377f3265", null ],
+    [ "h_res", "vbe__graphics_8c.html#a43e7e5a0a8f9069e6413b2066ca52f3e", null ],
+    [ "mode_aux", "vbe__graphics_8c.html#a803db9334e1215ad393310779962a0ca", null ],
+    [ "v_res", "vbe__graphics_8c.html#a5bda1b499253a8fbf3cab646f8760391", null ],
+    [ "video_mem", "vbe__graphics_8c.html#a93a24e067b9083bed6fb5c0336fd7a01", null ],
+    [ "vmi_p", "vbe__graphics_8c.html#a26081be7a771e5c611b33f15caaf831e", null ],
+    [ "vram_base", "vbe__graphics_8c.html#af856b4fb3e3f77e7beed552fb48a7c3a", null ],
+    [ "vram_size", "vbe__graphics_8c.html#a17b12b87c65aaa04215d9bdb7e9e84dd", null ]
+];

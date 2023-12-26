@@ -1,0 +1,12 @@
+digraph "Piece"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="Piece",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Structure that represents a game piece."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" board" ];
+  Node2 [label="Board",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$struct_board.html",tooltip="Structure that represents the game board."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" cells" ];
+  Node3 [label="Cell",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$struct_cell.html",tooltip="Structure that represents a cell in the game board."];
+}

@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['t_5fhook_5fid_0',['t_hook_id',['../timer_8c.html#a29f6a08756c47c621fc414150eeadd89',1,'timer.c']]],
+  ['tetris_5flogo_1',['tetris_logo',['../menu_8c.html#af554e036470b7407efc589fe2e419631',1,'menu.c']]],
+  ['tetris_5fmouse_5fpointer_2',['tetris_mouse_pointer',['../menu_8c.html#ae2243b8d5a64b01e5914e1273f9811b2',1,'menu.c']]],
+  ['tetris_5ft_3',['tetris_t',['../game_8c.html#abdad0d40a5b756cab7880532e7b6741c',1,'game.c']]],
+  ['three_4',['three',['../game__timer_8c.html#abf155d9777dcf10bfea3592038320f53',1,'game_timer.c']]],
+  ['three_5fdraw_5',['three_draw',['../game__timer_8c.html#a4076ddf4f243f6e56c11dd073bf01873',1,'game_timer.c']]],
+  ['two_6',['two',['../game__timer_8c.html#ab6803d44b5db00e0928a077628b4ff0b',1,'game_timer.c']]],
+  ['two_5fdraw_7',['two_draw',['../game__timer_8c.html#a775add35cc89b5e0595781648f271979',1,'game_timer.c']]],
+  ['txt_5finstructions_8',['txt_instructions',['../menu_8c.html#af8af1b0adb0a2d01569dec25b2fcfdc8',1,'menu.c']]],
+  ['txt_5finstructions_5fdraw_9',['txt_instructions_draw',['../menu_8c.html#ad82a46f7de01cfe4d9d8c79e20fea07c',1,'menu.c']]],
+  ['txt_5finstructions_5fselected_10',['txt_instructions_selected',['../menu_8c.html#a29d77abba4fe2c9c473b2fb23d4cc46e',1,'menu.c']]],
+  ['txt_5fleaderboard_11',['txt_leaderboard',['../menu_8c.html#ae9c2bf4f44533c38815d391c372d21b9',1,'menu.c']]],
+  ['txt_5fleaderboard_5fdraw_12',['txt_leaderboard_draw',['../menu_8c.html#a2e51ebd332eadabae202ec7dc9fa7335',1,'menu.c']]],
+  ['txt_5fleaderboard_5fselected_13',['txt_leaderboard_selected',['../menu_8c.html#a3f27a4fdc9b88bb62fbfd6d4ecb0bc45',1,'menu.c']]],
+  ['txt_5fplay_14',['txt_play',['../menu_8c.html#a4a3e9ecd6b458c37c49d7c02087567b0',1,'menu.c']]],
+  ['txt_5fplay_5fdraw_15',['txt_play_draw',['../menu_8c.html#a88ffa2003e16e66219787f77e028684e',1,'menu.c']]],
+  ['txt_5fplay_5fselected_16',['txt_play_selected',['../menu_8c.html#a5597898841ec832a2eee5cd9312789c9',1,'menu.c']]],
+  ['txt_5fquit_17',['txt_quit',['../menu_8c.html#ab87a04d05f57fdcfaed89b26fa551a06',1,'menu.c']]],
+  ['txt_5fquit_5fdraw_18',['txt_quit_draw',['../menu_8c.html#a6f6f22489036bcf6c07fc91384885b4c',1,'menu.c']]],
+  ['txt_5fquit_5fselected_19',['txt_quit_selected',['../menu_8c.html#ae9e44a53f26dfac54c510621304a1561',1,'menu.c']]]
+];

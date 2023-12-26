@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "system_error": "c",
+        "lcf.h": "c",
+<<<<<<< HEAD
+        "algorithm": "c",
+        "bitset": "c",
+        "charconv": "c",
+        "chrono": "c",
+        "format": "c",
+        "functional": "c",
+        "iterator": "c",
+        "utility": "c",
+        "xiosbase": "c",
+        "xutility": "c",
+        "__tuple": "c",
+        "ios": "c",
+        "string": "c",
+        "vector": "c"
+=======
+        "video_gr.h": "c",
+        "type.h": "c",
+        "vbe.h": "c"
+>>>>>>> Linda-Rodrigues-202005545
+    }
+}

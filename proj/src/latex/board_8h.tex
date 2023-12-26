@@ -1,0 +1,234 @@
+\hypertarget{board_8h}{}\doxysection{board.\+h File Reference}
+\label{board_8h}\index{board.h@{board.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}vbe\+\_\+graphics.\+h\char`\"{}}\newline
+Include dependency graph for board.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_cell}{Cell}}
+\begin{DoxyCompactList}\small\item\em Structure that represents a cell in the game board. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_board}{Board}}
+\begin{DoxyCompactList}\small\item\em Structure that represents the game board. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_piece}{Piece}}
+\begin{DoxyCompactList}\small\item\em Structure that represents a game piece. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{board_8h_a70ed59adcb4159ac551058053e649640}{SIZE}}~20
+\item 
+\#define \mbox{\hyperlink{board_8h_aec436205a3239814aabec610b7a66b5c}{BOARD\+\_\+\+MAX\+\_\+\+IDX}}~199
+\item 
+\#define \mbox{\hyperlink{board_8h_a7da1c128f696c681cbbe81a540865cc8}{UP\+\_\+\+BREAK}}~0xc8
+\item 
+\#define \mbox{\hyperlink{board_8h_aa94f3bc417dddecbbb61868652497e9f}{LEFT\+\_\+\+BREAK}}~0xcb
+\item 
+\#define \mbox{\hyperlink{board_8h_a4c2291f3ce4b075fe429b7c661260774}{RIGHT\+\_\+\+BREAK}}~0xcd
+\item 
+\#define \mbox{\hyperlink{board_8h_ae6c7e1fc7d0f7e024bee1f0091a52e02}{DOWN\+\_\+\+MAKE}}~0x50
+\item 
+\#define \mbox{\hyperlink{board_8h_a4af1b6159e447ba72652bb7fcdfa726e}{ESC}}~0x81
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}{shape}} \{ \newline
+\mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5a21f40778b7db9343a6ca75ec2c41ccce}{T}}
+, \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5ad091b8e376f7cf432dc367e1eda65e85}{I}}
+, \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aa70478ce277ffc322f8e1e3418e07355}{Z}}
+, \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5af4b8b7698dfedf5562a7db2bdb07010a}{O}}
+, \newline
+\mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aef31cc6fe9479955961311ee18ac205f}{L}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum that represents the different shapes of the game pieces. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{board_8h_a922ae13d6cc712c13f6d6bdf85a0b098}{draw\+\_\+board}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Function that draws the game board. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_piece}{Piece}} $\ast$ \mbox{\hyperlink{board_8h_a7f5822c6511e375f9b796d7ef0bf3bff}{new\+\_\+piece}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Function that creates a new game piece. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_board}{Board}} $\ast$ \mbox{\hyperlink{board_8h_af103816f6a5b108be6139a1b73dc168b}{new\+\_\+board}} ()
+\begin{DoxyCompactList}\small\item\em Function that creates a new game board. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{board_8h_adaa0b31ef3c2e39f979db5f7feb9bd4f}{delete\+\_\+piece}} (\mbox{\hyperlink{struct_piece}{Piece}} $\ast$piece)
+\begin{DoxyCompactList}\small\item\em Function that frees the memory used by a game piece. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{board_8h_a5ab138241d19c1826240ea803c970d9d}{delete\+\_\+board}} (\mbox{\hyperlink{struct_board}{Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Function that frees the memory used by a game board. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{board_8h_aec436205a3239814aabec610b7a66b5c}\label{board_8h_aec436205a3239814aabec610b7a66b5c}} 
+\index{board.h@{board.h}!BOARD\_MAX\_IDX@{BOARD\_MAX\_IDX}}
+\index{BOARD\_MAX\_IDX@{BOARD\_MAX\_IDX}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{BOARD\_MAX\_IDX}{BOARD\_MAX\_IDX}}
+{\footnotesize\ttfamily \#define BOARD\+\_\+\+MAX\+\_\+\+IDX~199}
+
+\mbox{\Hypertarget{board_8h_ae6c7e1fc7d0f7e024bee1f0091a52e02}\label{board_8h_ae6c7e1fc7d0f7e024bee1f0091a52e02}} 
+\index{board.h@{board.h}!DOWN\_MAKE@{DOWN\_MAKE}}
+\index{DOWN\_MAKE@{DOWN\_MAKE}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{DOWN\_MAKE}{DOWN\_MAKE}}
+{\footnotesize\ttfamily \#define DOWN\+\_\+\+MAKE~0x50}
+
+\mbox{\Hypertarget{board_8h_a4af1b6159e447ba72652bb7fcdfa726e}\label{board_8h_a4af1b6159e447ba72652bb7fcdfa726e}} 
+\index{board.h@{board.h}!ESC@{ESC}}
+\index{ESC@{ESC}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{ESC}{ESC}}
+{\footnotesize\ttfamily \#define ESC~0x81}
+
+\mbox{\Hypertarget{board_8h_aa94f3bc417dddecbbb61868652497e9f}\label{board_8h_aa94f3bc417dddecbbb61868652497e9f}} 
+\index{board.h@{board.h}!LEFT\_BREAK@{LEFT\_BREAK}}
+\index{LEFT\_BREAK@{LEFT\_BREAK}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{LEFT\_BREAK}{LEFT\_BREAK}}
+{\footnotesize\ttfamily \#define LEFT\+\_\+\+BREAK~0xcb}
+
+\mbox{\Hypertarget{board_8h_a4c2291f3ce4b075fe429b7c661260774}\label{board_8h_a4c2291f3ce4b075fe429b7c661260774}} 
+\index{board.h@{board.h}!RIGHT\_BREAK@{RIGHT\_BREAK}}
+\index{RIGHT\_BREAK@{RIGHT\_BREAK}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{RIGHT\_BREAK}{RIGHT\_BREAK}}
+{\footnotesize\ttfamily \#define RIGHT\+\_\+\+BREAK~0xcd}
+
+\mbox{\Hypertarget{board_8h_a70ed59adcb4159ac551058053e649640}\label{board_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{board.h@{board.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define SIZE~20}
+
+\mbox{\Hypertarget{board_8h_a7da1c128f696c681cbbe81a540865cc8}\label{board_8h_a7da1c128f696c681cbbe81a540865cc8}} 
+\index{board.h@{board.h}!UP\_BREAK@{UP\_BREAK}}
+\index{UP\_BREAK@{UP\_BREAK}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{UP\_BREAK}{UP\_BREAK}}
+{\footnotesize\ttfamily \#define UP\+\_\+\+BREAK~0xc8}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}\label{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}} 
+\index{board.h@{board.h}!shape@{shape}}
+\index{shape@{shape}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{shape}{shape}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5}{shape}}}
+
+
+
+Enum that represents the different shapes of the game pieces. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T@{T}!board.h@{board.h}}\index{board.h@{board.h}!T@{T}}}\mbox{\Hypertarget{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5a21f40778b7db9343a6ca75ec2c41ccce}\label{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5a21f40778b7db9343a6ca75ec2c41ccce}} 
+T&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I@{I}!board.h@{board.h}}\index{board.h@{board.h}!I@{I}}}\mbox{\Hypertarget{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5ad091b8e376f7cf432dc367e1eda65e85}\label{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5ad091b8e376f7cf432dc367e1eda65e85}} 
+I&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Z@{Z}!board.h@{board.h}}\index{board.h@{board.h}!Z@{Z}}}\mbox{\Hypertarget{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aa70478ce277ffc322f8e1e3418e07355}\label{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aa70478ce277ffc322f8e1e3418e07355}} 
+Z&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{O@{O}!board.h@{board.h}}\index{board.h@{board.h}!O@{O}}}\mbox{\Hypertarget{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5af4b8b7698dfedf5562a7db2bdb07010a}\label{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5af4b8b7698dfedf5562a7db2bdb07010a}} 
+O&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{L@{L}!board.h@{board.h}}\index{board.h@{board.h}!L@{L}}}\mbox{\Hypertarget{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aef31cc6fe9479955961311ee18ac205f}\label{board_8h_a45cde9abb508c62d67c3bb2b9bf566a5aef31cc6fe9479955961311ee18ac205f}} 
+L&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{board_8h_a5ab138241d19c1826240ea803c970d9d}\label{board_8h_a5ab138241d19c1826240ea803c970d9d}} 
+\index{board.h@{board.h}!delete\_board@{delete\_board}}
+\index{delete\_board@{delete\_board}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{delete\_board()}{delete\_board()}}
+{\footnotesize\ttfamily void delete\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Function that frees the memory used by a game board. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & A pointer to the game board to be deleted. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{board_8h_adaa0b31ef3c2e39f979db5f7feb9bd4f}\label{board_8h_adaa0b31ef3c2e39f979db5f7feb9bd4f}} 
+\index{board.h@{board.h}!delete\_piece@{delete\_piece}}
+\index{delete\_piece@{delete\_piece}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{delete\_piece()}{delete\_piece()}}
+{\footnotesize\ttfamily void delete\+\_\+piece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_piece}{Piece}} $\ast$}]{piece }\end{DoxyParamCaption})}
+
+
+
+Function that frees the memory used by a game piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & A pointer to the game piece to be deleted. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{board_8h_a922ae13d6cc712c13f6d6bdf85a0b098}\label{board_8h_a922ae13d6cc712c13f6d6bdf85a0b098}} 
+\index{board.h@{board.h}!draw\_board@{draw\_board}}
+\index{draw\_board@{draw\_board}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{draw\_board()}{draw\_board()}}
+{\footnotesize\ttfamily void draw\+\_\+board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Function that draws the game board. 
+
+The function draws the borders of board and each of its cells with its respective color.
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & The game board to be drawn. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{board_8h_af103816f6a5b108be6139a1b73dc168b}\label{board_8h_af103816f6a5b108be6139a1b73dc168b}} 
+\index{board.h@{board.h}!new\_board@{new\_board}}
+\index{new\_board@{new\_board}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{new\_board()}{new\_board()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_board}{Board}} $\ast$ new\+\_\+board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function that creates a new game board. 
+
+The function allocates memory for the new board and intializes each of its cells.
+
+\begin{DoxyReturn}{Returns}
+Board$\ast$ -\/ a pointer to the new board. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{board_8h_a7f5822c6511e375f9b796d7ef0bf3bff}\label{board_8h_a7f5822c6511e375f9b796d7ef0bf3bff}} 
+\index{board.h@{board.h}!new\_piece@{new\_piece}}
+\index{new\_piece@{new\_piece}!board.h@{board.h}}
+\doxysubsubsection{\texorpdfstring{new\_piece()}{new\_piece()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_piece}{Piece}} $\ast$ new\+\_\+piece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_board}{Board}} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Function that creates a new game piece. 
+
+The function allocates memory for the new piece, selects a shape and a color for it, initializes its poisition and rotation value and updates the board cells with the piece\textquotesingle{}s color
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & A pointer to the board the new piece belongs to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Piece$\ast$ -\/ a pointer to the new game piece. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6

@@ -1,0 +1,331 @@
+\hypertarget{group__i8042}{}\doxysection{i8042}
+\label{group__i8042}\index{i8042@{i8042}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga1a522aa19bcb695a9df30032a893bee3}{DELAY\+\_\+\+US}}~20000
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga85964cb90343bb1a029b1d1b4229f910}{MOUSE\+\_\+\+IRQ}}~12
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga16c5827f043d82f87c726c2d4369c11d}{KBC\+\_\+\+IRQ}}~1
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga7f6de12c6747810f8c3c8cf3cc987273}{IRQ\+\_\+\+SET}}~BIT(1)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga2d30922b1c1b5bca903d060335d8b174}{KBD\+\_\+\+ESC\+\_\+\+BREAK}}~0x81
+\item 
+\#define \mbox{\hyperlink{group__i8042_gab427e6926fcc47eb1c02c1f78162b6f6}{TWO\+\_\+\+BYTES}}~0x\+E0
+\item 
+\#define \mbox{\hyperlink{group__i8042_gac06bd8bf6f4b368baf0eac89c2d7cfd4}{KBD\+\_\+\+BREAK}}~BIT(7)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga1ccde68b2b6d4e45b50eef1403e10bb7}{KBC\+\_\+\+OUT\+\_\+\+BUF}}~0x60
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga6f977b36b770dca3092d0bdf8c949cfe}{KBC\+\_\+\+ST\+\_\+\+REG}}~0x64
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga6d57c7927a10f638c83046b52c8caac9}{KBC\+\_\+\+CMD\+\_\+\+REG}}~0x64
+\item 
+\#define \mbox{\hyperlink{group__i8042_gab336a19ab7f06854a323565d40b1c7e8}{KBC\+\_\+\+READ}}~0x20
+\item 
+\#define \mbox{\hyperlink{group__i8042_gaa5f896cf5009a7b3b189c651211552c8}{KBC\+\_\+\+WRITE}}~0x60
+\item 
+\#define \mbox{\hyperlink{group__i8042_gaea2ef6dda1aabebf291eeee29b66c04a}{KBC\+\_\+\+PAR\+\_\+\+ERR}}~BIT(7)
+\item 
+\#define \mbox{\hyperlink{group__i8042_gae31c3653f5881b02cbfdd4ccbb7ccf50}{KBC\+\_\+\+TO\+\_\+\+ERR}}~BIT(6)
+\item 
+\#define \mbox{\hyperlink{group__i8042_gaaa796d09d1e94025da456738295342f2}{KBC\+\_\+\+AUX}}~BIT(5)
+\item 
+\#define \mbox{\hyperlink{group__i8042_gac1649d41f8ba9a02fa70ec4e600d5e4a}{KBC\+\_\+\+IBF}}~BIT(1)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga36930de8a703505c95fe133095dcfe06}{KBC\+\_\+\+OBF}}~BIT(0)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga101aafe049b99e963893f05ce89cec6b}{KBC\+\_\+\+READ\+\_\+\+CMB\+\_\+\+BYTE}}~0x20
+\item 
+\#define \mbox{\hyperlink{group__i8042_gafc8268c79d2083f8096cdb29302018aa}{KBC\+\_\+\+WRITE\+\_\+\+CMB\+\_\+\+BYTE}}~0x60
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga3add1395817336a078643ed6e0175ad6}{KBC\+\_\+\+SELF\+\_\+\+TEST}}~0x\+AA
+\item 
+\#define \mbox{\hyperlink{group__i8042_gab389a48497ca01296ca29c83c8eab2cd}{KBC\+\_\+\+CHECK\+\_\+\+KB\+\_\+\+INTERFACE}}~0x\+AB
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga126aaac2cf59dcb11c274cd31640b8b7}{KBC\+\_\+\+ENABLE\+\_\+\+KB\+\_\+\+INTERFACE}}~0x\+AE
+\item 
+\#define \mbox{\hyperlink{group__i8042_gac40887059e6908d6eafc54d6eb71fde8}{KBC\+\_\+\+DISABLE\+\_\+\+KB\+\_\+\+INTERFACE}}~0x\+AD
+\item 
+\#define \mbox{\hyperlink{group__i8042_gafed266c3dbd51f6295f1b967841ebb56}{LEFT\+\_\+\+BIT}}~BIT(0)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga853ddda09279c7ce7769de439192f661}{RIGHT\+\_\+\+BIT}}~BIT(1)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga0a7767bab87e42045bed057d21148b94}{MIDDLE\+\_\+\+BIT}}~BIT(2)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga181f1c2860e4d7fd7788990378061137}{X\+\_\+\+SIGN}}~BIT(4)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga2a0064e2f0979eea21b81e4fe6b2ac32}{Y\+\_\+\+SIGN}}~BIT(5)
+\item 
+\#define \mbox{\hyperlink{group__i8042_gaf329f104f7167317fe4d99fc6819501d}{X\+\_\+\+OVFL}}~BIT(6)
+\item 
+\#define \mbox{\hyperlink{group__i8042_gad49b33d3abadec53a57d09a7f255315f}{Y\+\_\+\+OVFL}}~BIT(7)
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga0fcdbd39ed7dcf62fede44082d09cb7a}{WRITE\+\_\+\+BYTE\+\_\+\+TO\+\_\+\+MOUSE}}~0x\+D4
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga12d3b0abea66d191d47fe6860e58865e}{DISABLE\+\_\+\+MOUSE}}~0x\+A7
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga8e51dfaa390f8cfb4b1b286fb3b22aff}{DISABLE\+\_\+\+DATA\+\_\+\+REPORTING}}~0x\+F5
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga9c64a38cca5c7aabe0ab2d8c5e21e723}{ENABLE\+\_\+\+DATA\+\_\+\+REPORTING}}~0x\+F4
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga19a57d9d2eafd32ee130c0f526906719}{SET\+\_\+\+REMOTE\+\_\+\+MODE}}~0x\+F0
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga8d406d5aff787991429e62cfd9bac721}{READ\+\_\+\+DATA}}~0x\+EB
+\item 
+\#define \mbox{\hyperlink{group__i8042_gaabf49b4a4d8ad72d202c8a7197058e35}{SET\+\_\+\+STREAM\+\_\+\+MODE}}~0x\+EA
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga6f6489887e08bff4887d0bc5dcf214d8}{ACK}}~0x\+FA
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga958518a45b12053ae33606ee7cb68a55}{NACK}}~0x\+FE
+\item 
+\#define \mbox{\hyperlink{group__i8042_ga8fe83ac76edc595f6b98cd4a4127aed5}{ERROR}}~0x\+FC
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Constants related to the keyboard and the mouse 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group__i8042_ga6f6489887e08bff4887d0bc5dcf214d8}\label{group__i8042_ga6f6489887e08bff4887d0bc5dcf214d8}} 
+\index{i8042@{i8042}!ACK@{ACK}}
+\index{ACK@{ACK}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{ACK}{ACK}}
+{\footnotesize\ttfamily \#define ACK~0x\+FA}
+
+\mbox{\Hypertarget{group__i8042_ga1a522aa19bcb695a9df30032a893bee3}\label{group__i8042_ga1a522aa19bcb695a9df30032a893bee3}} 
+\index{i8042@{i8042}!DELAY\_US@{DELAY\_US}}
+\index{DELAY\_US@{DELAY\_US}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{DELAY\_US}{DELAY\_US}}
+{\footnotesize\ttfamily \#define DELAY\+\_\+\+US~20000}
+
+\mbox{\Hypertarget{group__i8042_ga8e51dfaa390f8cfb4b1b286fb3b22aff}\label{group__i8042_ga8e51dfaa390f8cfb4b1b286fb3b22aff}} 
+\index{i8042@{i8042}!DISABLE\_DATA\_REPORTING@{DISABLE\_DATA\_REPORTING}}
+\index{DISABLE\_DATA\_REPORTING@{DISABLE\_DATA\_REPORTING}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{DISABLE\_DATA\_REPORTING}{DISABLE\_DATA\_REPORTING}}
+{\footnotesize\ttfamily \#define DISABLE\+\_\+\+DATA\+\_\+\+REPORTING~0x\+F5}
+
+\mbox{\Hypertarget{group__i8042_ga12d3b0abea66d191d47fe6860e58865e}\label{group__i8042_ga12d3b0abea66d191d47fe6860e58865e}} 
+\index{i8042@{i8042}!DISABLE\_MOUSE@{DISABLE\_MOUSE}}
+\index{DISABLE\_MOUSE@{DISABLE\_MOUSE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{DISABLE\_MOUSE}{DISABLE\_MOUSE}}
+{\footnotesize\ttfamily \#define DISABLE\+\_\+\+MOUSE~0x\+A7}
+
+\mbox{\Hypertarget{group__i8042_ga9c64a38cca5c7aabe0ab2d8c5e21e723}\label{group__i8042_ga9c64a38cca5c7aabe0ab2d8c5e21e723}} 
+\index{i8042@{i8042}!ENABLE\_DATA\_REPORTING@{ENABLE\_DATA\_REPORTING}}
+\index{ENABLE\_DATA\_REPORTING@{ENABLE\_DATA\_REPORTING}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{ENABLE\_DATA\_REPORTING}{ENABLE\_DATA\_REPORTING}}
+{\footnotesize\ttfamily \#define ENABLE\+\_\+\+DATA\+\_\+\+REPORTING~0x\+F4}
+
+\mbox{\Hypertarget{group__i8042_ga8fe83ac76edc595f6b98cd4a4127aed5}\label{group__i8042_ga8fe83ac76edc595f6b98cd4a4127aed5}} 
+\index{i8042@{i8042}!ERROR@{ERROR}}
+\index{ERROR@{ERROR}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{ERROR}{ERROR}}
+{\footnotesize\ttfamily \#define ERROR~0x\+FC}
+
+\mbox{\Hypertarget{group__i8042_ga7f6de12c6747810f8c3c8cf3cc987273}\label{group__i8042_ga7f6de12c6747810f8c3c8cf3cc987273}} 
+\index{i8042@{i8042}!IRQ\_SET@{IRQ\_SET}}
+\index{IRQ\_SET@{IRQ\_SET}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{IRQ\_SET}{IRQ\_SET}}
+{\footnotesize\ttfamily \#define IRQ\+\_\+\+SET~BIT(1)}
+
+\mbox{\Hypertarget{group__i8042_gaaa796d09d1e94025da456738295342f2}\label{group__i8042_gaaa796d09d1e94025da456738295342f2}} 
+\index{i8042@{i8042}!KBC\_AUX@{KBC\_AUX}}
+\index{KBC\_AUX@{KBC\_AUX}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_AUX}{KBC\_AUX}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+AUX~BIT(5)}
+
+\mbox{\Hypertarget{group__i8042_gab389a48497ca01296ca29c83c8eab2cd}\label{group__i8042_gab389a48497ca01296ca29c83c8eab2cd}} 
+\index{i8042@{i8042}!KBC\_CHECK\_KB\_INTERFACE@{KBC\_CHECK\_KB\_INTERFACE}}
+\index{KBC\_CHECK\_KB\_INTERFACE@{KBC\_CHECK\_KB\_INTERFACE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_CHECK\_KB\_INTERFACE}{KBC\_CHECK\_KB\_INTERFACE}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+CHECK\+\_\+\+KB\+\_\+\+INTERFACE~0x\+AB}
+
+\mbox{\Hypertarget{group__i8042_ga6d57c7927a10f638c83046b52c8caac9}\label{group__i8042_ga6d57c7927a10f638c83046b52c8caac9}} 
+\index{i8042@{i8042}!KBC\_CMD\_REG@{KBC\_CMD\_REG}}
+\index{KBC\_CMD\_REG@{KBC\_CMD\_REG}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_CMD\_REG}{KBC\_CMD\_REG}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+CMD\+\_\+\+REG~0x64}
+
+\mbox{\Hypertarget{group__i8042_gac40887059e6908d6eafc54d6eb71fde8}\label{group__i8042_gac40887059e6908d6eafc54d6eb71fde8}} 
+\index{i8042@{i8042}!KBC\_DISABLE\_KB\_INTERFACE@{KBC\_DISABLE\_KB\_INTERFACE}}
+\index{KBC\_DISABLE\_KB\_INTERFACE@{KBC\_DISABLE\_KB\_INTERFACE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_DISABLE\_KB\_INTERFACE}{KBC\_DISABLE\_KB\_INTERFACE}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+DISABLE\+\_\+\+KB\+\_\+\+INTERFACE~0x\+AD}
+
+\mbox{\Hypertarget{group__i8042_ga126aaac2cf59dcb11c274cd31640b8b7}\label{group__i8042_ga126aaac2cf59dcb11c274cd31640b8b7}} 
+\index{i8042@{i8042}!KBC\_ENABLE\_KB\_INTERFACE@{KBC\_ENABLE\_KB\_INTERFACE}}
+\index{KBC\_ENABLE\_KB\_INTERFACE@{KBC\_ENABLE\_KB\_INTERFACE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_ENABLE\_KB\_INTERFACE}{KBC\_ENABLE\_KB\_INTERFACE}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+ENABLE\+\_\+\+KB\+\_\+\+INTERFACE~0x\+AE}
+
+\mbox{\Hypertarget{group__i8042_gac1649d41f8ba9a02fa70ec4e600d5e4a}\label{group__i8042_gac1649d41f8ba9a02fa70ec4e600d5e4a}} 
+\index{i8042@{i8042}!KBC\_IBF@{KBC\_IBF}}
+\index{KBC\_IBF@{KBC\_IBF}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_IBF}{KBC\_IBF}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+IBF~BIT(1)}
+
+\mbox{\Hypertarget{group__i8042_ga16c5827f043d82f87c726c2d4369c11d}\label{group__i8042_ga16c5827f043d82f87c726c2d4369c11d}} 
+\index{i8042@{i8042}!KBC\_IRQ@{KBC\_IRQ}}
+\index{KBC\_IRQ@{KBC\_IRQ}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_IRQ}{KBC\_IRQ}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+IRQ~1}
+
+\mbox{\Hypertarget{group__i8042_ga36930de8a703505c95fe133095dcfe06}\label{group__i8042_ga36930de8a703505c95fe133095dcfe06}} 
+\index{i8042@{i8042}!KBC\_OBF@{KBC\_OBF}}
+\index{KBC\_OBF@{KBC\_OBF}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_OBF}{KBC\_OBF}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+OBF~BIT(0)}
+
+\mbox{\Hypertarget{group__i8042_ga1ccde68b2b6d4e45b50eef1403e10bb7}\label{group__i8042_ga1ccde68b2b6d4e45b50eef1403e10bb7}} 
+\index{i8042@{i8042}!KBC\_OUT\_BUF@{KBC\_OUT\_BUF}}
+\index{KBC\_OUT\_BUF@{KBC\_OUT\_BUF}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_OUT\_BUF}{KBC\_OUT\_BUF}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+OUT\+\_\+\+BUF~0x60}
+
+\mbox{\Hypertarget{group__i8042_gaea2ef6dda1aabebf291eeee29b66c04a}\label{group__i8042_gaea2ef6dda1aabebf291eeee29b66c04a}} 
+\index{i8042@{i8042}!KBC\_PAR\_ERR@{KBC\_PAR\_ERR}}
+\index{KBC\_PAR\_ERR@{KBC\_PAR\_ERR}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_PAR\_ERR}{KBC\_PAR\_ERR}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+PAR\+\_\+\+ERR~BIT(7)}
+
+\mbox{\Hypertarget{group__i8042_gab336a19ab7f06854a323565d40b1c7e8}\label{group__i8042_gab336a19ab7f06854a323565d40b1c7e8}} 
+\index{i8042@{i8042}!KBC\_READ@{KBC\_READ}}
+\index{KBC\_READ@{KBC\_READ}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_READ}{KBC\_READ}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+READ~0x20}
+
+\mbox{\Hypertarget{group__i8042_ga101aafe049b99e963893f05ce89cec6b}\label{group__i8042_ga101aafe049b99e963893f05ce89cec6b}} 
+\index{i8042@{i8042}!KBC\_READ\_CMB\_BYTE@{KBC\_READ\_CMB\_BYTE}}
+\index{KBC\_READ\_CMB\_BYTE@{KBC\_READ\_CMB\_BYTE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_READ\_CMB\_BYTE}{KBC\_READ\_CMB\_BYTE}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+READ\+\_\+\+CMB\+\_\+\+BYTE~0x20}
+
+\mbox{\Hypertarget{group__i8042_ga3add1395817336a078643ed6e0175ad6}\label{group__i8042_ga3add1395817336a078643ed6e0175ad6}} 
+\index{i8042@{i8042}!KBC\_SELF\_TEST@{KBC\_SELF\_TEST}}
+\index{KBC\_SELF\_TEST@{KBC\_SELF\_TEST}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_SELF\_TEST}{KBC\_SELF\_TEST}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+SELF\+\_\+\+TEST~0x\+AA}
+
+\mbox{\Hypertarget{group__i8042_ga6f977b36b770dca3092d0bdf8c949cfe}\label{group__i8042_ga6f977b36b770dca3092d0bdf8c949cfe}} 
+\index{i8042@{i8042}!KBC\_ST\_REG@{KBC\_ST\_REG}}
+\index{KBC\_ST\_REG@{KBC\_ST\_REG}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_ST\_REG}{KBC\_ST\_REG}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+ST\+\_\+\+REG~0x64}
+
+\mbox{\Hypertarget{group__i8042_gae31c3653f5881b02cbfdd4ccbb7ccf50}\label{group__i8042_gae31c3653f5881b02cbfdd4ccbb7ccf50}} 
+\index{i8042@{i8042}!KBC\_TO\_ERR@{KBC\_TO\_ERR}}
+\index{KBC\_TO\_ERR@{KBC\_TO\_ERR}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_TO\_ERR}{KBC\_TO\_ERR}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+TO\+\_\+\+ERR~BIT(6)}
+
+\mbox{\Hypertarget{group__i8042_gaa5f896cf5009a7b3b189c651211552c8}\label{group__i8042_gaa5f896cf5009a7b3b189c651211552c8}} 
+\index{i8042@{i8042}!KBC\_WRITE@{KBC\_WRITE}}
+\index{KBC\_WRITE@{KBC\_WRITE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_WRITE}{KBC\_WRITE}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+WRITE~0x60}
+
+\mbox{\Hypertarget{group__i8042_gafc8268c79d2083f8096cdb29302018aa}\label{group__i8042_gafc8268c79d2083f8096cdb29302018aa}} 
+\index{i8042@{i8042}!KBC\_WRITE\_CMB\_BYTE@{KBC\_WRITE\_CMB\_BYTE}}
+\index{KBC\_WRITE\_CMB\_BYTE@{KBC\_WRITE\_CMB\_BYTE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBC\_WRITE\_CMB\_BYTE}{KBC\_WRITE\_CMB\_BYTE}}
+{\footnotesize\ttfamily \#define KBC\+\_\+\+WRITE\+\_\+\+CMB\+\_\+\+BYTE~0x60}
+
+\mbox{\Hypertarget{group__i8042_gac06bd8bf6f4b368baf0eac89c2d7cfd4}\label{group__i8042_gac06bd8bf6f4b368baf0eac89c2d7cfd4}} 
+\index{i8042@{i8042}!KBD\_BREAK@{KBD\_BREAK}}
+\index{KBD\_BREAK@{KBD\_BREAK}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBD\_BREAK}{KBD\_BREAK}}
+{\footnotesize\ttfamily \#define KBD\+\_\+\+BREAK~BIT(7)}
+
+\mbox{\Hypertarget{group__i8042_ga2d30922b1c1b5bca903d060335d8b174}\label{group__i8042_ga2d30922b1c1b5bca903d060335d8b174}} 
+\index{i8042@{i8042}!KBD\_ESC\_BREAK@{KBD\_ESC\_BREAK}}
+\index{KBD\_ESC\_BREAK@{KBD\_ESC\_BREAK}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{KBD\_ESC\_BREAK}{KBD\_ESC\_BREAK}}
+{\footnotesize\ttfamily \#define KBD\+\_\+\+ESC\+\_\+\+BREAK~0x81}
+
+\mbox{\Hypertarget{group__i8042_gafed266c3dbd51f6295f1b967841ebb56}\label{group__i8042_gafed266c3dbd51f6295f1b967841ebb56}} 
+\index{i8042@{i8042}!LEFT\_BIT@{LEFT\_BIT}}
+\index{LEFT\_BIT@{LEFT\_BIT}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{LEFT\_BIT}{LEFT\_BIT}}
+{\footnotesize\ttfamily \#define LEFT\+\_\+\+BIT~BIT(0)}
+
+\mbox{\Hypertarget{group__i8042_ga0a7767bab87e42045bed057d21148b94}\label{group__i8042_ga0a7767bab87e42045bed057d21148b94}} 
+\index{i8042@{i8042}!MIDDLE\_BIT@{MIDDLE\_BIT}}
+\index{MIDDLE\_BIT@{MIDDLE\_BIT}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{MIDDLE\_BIT}{MIDDLE\_BIT}}
+{\footnotesize\ttfamily \#define MIDDLE\+\_\+\+BIT~BIT(2)}
+
+\mbox{\Hypertarget{group__i8042_ga85964cb90343bb1a029b1d1b4229f910}\label{group__i8042_ga85964cb90343bb1a029b1d1b4229f910}} 
+\index{i8042@{i8042}!MOUSE\_IRQ@{MOUSE\_IRQ}}
+\index{MOUSE\_IRQ@{MOUSE\_IRQ}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{MOUSE\_IRQ}{MOUSE\_IRQ}}
+{\footnotesize\ttfamily \#define MOUSE\+\_\+\+IRQ~12}
+
+\mbox{\Hypertarget{group__i8042_ga958518a45b12053ae33606ee7cb68a55}\label{group__i8042_ga958518a45b12053ae33606ee7cb68a55}} 
+\index{i8042@{i8042}!NACK@{NACK}}
+\index{NACK@{NACK}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{NACK}{NACK}}
+{\footnotesize\ttfamily \#define NACK~0x\+FE}
+
+\mbox{\Hypertarget{group__i8042_ga8d406d5aff787991429e62cfd9bac721}\label{group__i8042_ga8d406d5aff787991429e62cfd9bac721}} 
+\index{i8042@{i8042}!READ\_DATA@{READ\_DATA}}
+\index{READ\_DATA@{READ\_DATA}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{READ\_DATA}{READ\_DATA}}
+{\footnotesize\ttfamily \#define READ\+\_\+\+DATA~0x\+EB}
+
+\mbox{\Hypertarget{group__i8042_ga853ddda09279c7ce7769de439192f661}\label{group__i8042_ga853ddda09279c7ce7769de439192f661}} 
+\index{i8042@{i8042}!RIGHT\_BIT@{RIGHT\_BIT}}
+\index{RIGHT\_BIT@{RIGHT\_BIT}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{RIGHT\_BIT}{RIGHT\_BIT}}
+{\footnotesize\ttfamily \#define RIGHT\+\_\+\+BIT~BIT(1)}
+
+\mbox{\Hypertarget{group__i8042_ga19a57d9d2eafd32ee130c0f526906719}\label{group__i8042_ga19a57d9d2eafd32ee130c0f526906719}} 
+\index{i8042@{i8042}!SET\_REMOTE\_MODE@{SET\_REMOTE\_MODE}}
+\index{SET\_REMOTE\_MODE@{SET\_REMOTE\_MODE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{SET\_REMOTE\_MODE}{SET\_REMOTE\_MODE}}
+{\footnotesize\ttfamily \#define SET\+\_\+\+REMOTE\+\_\+\+MODE~0x\+F0}
+
+\mbox{\Hypertarget{group__i8042_gaabf49b4a4d8ad72d202c8a7197058e35}\label{group__i8042_gaabf49b4a4d8ad72d202c8a7197058e35}} 
+\index{i8042@{i8042}!SET\_STREAM\_MODE@{SET\_STREAM\_MODE}}
+\index{SET\_STREAM\_MODE@{SET\_STREAM\_MODE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{SET\_STREAM\_MODE}{SET\_STREAM\_MODE}}
+{\footnotesize\ttfamily \#define SET\+\_\+\+STREAM\+\_\+\+MODE~0x\+EA}
+
+\mbox{\Hypertarget{group__i8042_gab427e6926fcc47eb1c02c1f78162b6f6}\label{group__i8042_gab427e6926fcc47eb1c02c1f78162b6f6}} 
+\index{i8042@{i8042}!TWO\_BYTES@{TWO\_BYTES}}
+\index{TWO\_BYTES@{TWO\_BYTES}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{TWO\_BYTES}{TWO\_BYTES}}
+{\footnotesize\ttfamily \#define TWO\+\_\+\+BYTES~0x\+E0}
+
+\mbox{\Hypertarget{group__i8042_ga0fcdbd39ed7dcf62fede44082d09cb7a}\label{group__i8042_ga0fcdbd39ed7dcf62fede44082d09cb7a}} 
+\index{i8042@{i8042}!WRITE\_BYTE\_TO\_MOUSE@{WRITE\_BYTE\_TO\_MOUSE}}
+\index{WRITE\_BYTE\_TO\_MOUSE@{WRITE\_BYTE\_TO\_MOUSE}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{WRITE\_BYTE\_TO\_MOUSE}{WRITE\_BYTE\_TO\_MOUSE}}
+{\footnotesize\ttfamily \#define WRITE\+\_\+\+BYTE\+\_\+\+TO\+\_\+\+MOUSE~0x\+D4}
+
+\mbox{\Hypertarget{group__i8042_gaf329f104f7167317fe4d99fc6819501d}\label{group__i8042_gaf329f104f7167317fe4d99fc6819501d}} 
+\index{i8042@{i8042}!X\_OVFL@{X\_OVFL}}
+\index{X\_OVFL@{X\_OVFL}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{X\_OVFL}{X\_OVFL}}
+{\footnotesize\ttfamily \#define X\+\_\+\+OVFL~BIT(6)}
+
+\mbox{\Hypertarget{group__i8042_ga181f1c2860e4d7fd7788990378061137}\label{group__i8042_ga181f1c2860e4d7fd7788990378061137}} 
+\index{i8042@{i8042}!X\_SIGN@{X\_SIGN}}
+\index{X\_SIGN@{X\_SIGN}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{X\_SIGN}{X\_SIGN}}
+{\footnotesize\ttfamily \#define X\+\_\+\+SIGN~BIT(4)}
+
+\mbox{\Hypertarget{group__i8042_gad49b33d3abadec53a57d09a7f255315f}\label{group__i8042_gad49b33d3abadec53a57d09a7f255315f}} 
+\index{i8042@{i8042}!Y\_OVFL@{Y\_OVFL}}
+\index{Y\_OVFL@{Y\_OVFL}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{Y\_OVFL}{Y\_OVFL}}
+{\footnotesize\ttfamily \#define Y\+\_\+\+OVFL~BIT(7)}
+
+\mbox{\Hypertarget{group__i8042_ga2a0064e2f0979eea21b81e4fe6b2ac32}\label{group__i8042_ga2a0064e2f0979eea21b81e4fe6b2ac32}} 
+\index{i8042@{i8042}!Y\_SIGN@{Y\_SIGN}}
+\index{Y\_SIGN@{Y\_SIGN}!i8042@{i8042}}
+\doxysubsubsection{\texorpdfstring{Y\_SIGN}{Y\_SIGN}}
+{\footnotesize\ttfamily \#define Y\+\_\+\+SIGN~BIT(5)}
+
